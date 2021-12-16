@@ -9,7 +9,7 @@ import { Container, NavDropdown, Navbar, Nav } from 'react-bootstrap';
 export default function Navigation() {
     return (
         <div>
-            <Container>
+            <Container className='nav-container'>
                 <Navbar collapseOnSelect expand='lg' variant='light' id='navigation-bar'>
                     <Navbar.Brand>
                         <img 

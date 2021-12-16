@@ -10,7 +10,7 @@ export default function Navigation() {
     return (
         <div>
             <Container className='nav-container'>
-                <Navbar collapseOnSelect expand='lg' variant='light' id='navigation-bar'>
+                <Navbar collapseOnSelect expand='md' variant='light' id='navigation-bar'>
                     <Navbar.Brand>
                         <img 
                             src="./Images/logo.jpg"

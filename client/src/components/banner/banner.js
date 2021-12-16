@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styling
-import "./Banner.css";
+import "./banner.css";
 
 export default function Banner() {
     return (

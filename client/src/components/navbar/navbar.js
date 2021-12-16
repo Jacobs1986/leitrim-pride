@@ -22,14 +22,16 @@ export default function Navigation() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className='mr-auto'>
-                            <Nav.Link>Home</Nav.Link>
-                            <NavDropdown title='About Us'>
-
+                            <Nav.Link className='nav-home'>Home</Nav.Link>
+                            <NavDropdown title='About Us' className='nav-about'>
+                                <NavDropdown.Item>Who We Are</NavDropdown.Item>
+                                <NavDropdown.Item>Our Mission</NavDropdown.Item>
+                                <NavDropdown.Item>Constitution</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link>Get Involved</Nav.Link>
-                            <Nav.Link>Resources</Nav.Link>
-                            <Nav.Link>Donate</Nav.Link>
-                            <Nav.Link>Contact</Nav.Link>
+                            <Nav.Link className='nav-get'>Get Involved</Nav.Link>
+                            <Nav.Link className='nav-resources'>Resources</Nav.Link>
+                            <Nav.Link className='nav-donate'>Donate</Nav.Link>
+                            <Nav.Link className='nav-contact'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

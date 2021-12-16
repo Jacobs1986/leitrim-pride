@@ -38,3 +38,9 @@
 .nav-contact {
     background-color: purple;
 }
+
+@media screen and (min-width: 992px) {
+    .nav-container {
+        padding: 0 25% !important;
+    }    
+}

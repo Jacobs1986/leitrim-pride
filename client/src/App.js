@@ -1,4 +1,6 @@
 import React from "react";
+
+// Styling
 import './App.css'
 
 function App() {

@@ -1,3 +1,20 @@
+.link {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.link a {
+    color: black !important;
+}
+
+.link:hover {
+    color: skyblue !important;
+}
+
+.link a:hover {
+    color: skyblue !important;
+}
+
 .nav-home {
     background-color: red;
 }

@@ -16,6 +16,7 @@ export default function Banner() {
                     width='100%'
                 />
             </Container>
+            <div className='overlay'>A FIRST TIME FOR EVERYTHING</div>
         </div>
     );
 };

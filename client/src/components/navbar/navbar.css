@@ -50,3 +50,9 @@
         padding: 0 19% !important;
     }    
 }
+
+@media screen and (min-width: 1200px) {
+    .nav-container {
+        padding: 0 25% !important;
+    }    
+}

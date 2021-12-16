@@ -9,9 +9,8 @@ import { Container, Image } from 'react-bootstrap';
 export default function Banner() {
     return (
         <div>
-            <Container fluid>
+            <Container className='bannerContainer' fluid>
                 <Image
-                    className='bannerImage' 
                     src='./Images/banner.jpeg'
                     alt='banner'
                     width='100%'

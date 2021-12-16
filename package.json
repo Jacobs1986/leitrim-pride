@@ -1,0 +1,8 @@
+{
+  "name": "leitrim-pride",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/Jacobs1986/leitrim-pride.git",
+  "author": "Sean Jacobson <sean.jacobson86@gmail.com>",
+  "license": "MIT"
+}

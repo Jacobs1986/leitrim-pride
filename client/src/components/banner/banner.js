@@ -15,8 +15,8 @@ export default function Banner() {
                     alt='banner'
                     width='100%'
                 />
+                <div className='overlay'>A FIRST TIME FOR EVERYTHING</div>
             </Container>
-            <div className='overlay'>A FIRST TIME FOR EVERYTHING</div>
         </div>
     );
 };

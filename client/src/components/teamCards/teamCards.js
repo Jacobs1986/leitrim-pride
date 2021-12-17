@@ -4,6 +4,9 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 //Styling
 import "./teamCards.css";
 
+// team info
+import teamInfo from './teaminfo.json';
+
 export default function TeamCards() {
     return (
         <div>

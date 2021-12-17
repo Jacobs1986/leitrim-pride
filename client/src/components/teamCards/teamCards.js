@@ -5,6 +5,8 @@ import "./teamCards.css";
 
 export default function TeamCards() {
     return (
-        <div>This component is ready!</div>
+        <div>
+            <h1>Meet Our Team</h1>
+        </div>
     );
 };

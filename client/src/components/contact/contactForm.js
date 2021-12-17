@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styling
-import "./contactForm.css";
+// import "./contactForm.css";
 
 export default function ContactForm() {
     return (

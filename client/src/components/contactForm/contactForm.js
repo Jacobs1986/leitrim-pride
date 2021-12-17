@@ -5,17 +5,13 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 import "./contactForm.css";
 
 // API
-import { messages } from "../../utils/message-API";
+import { messages2 } from "../../utils/message-API";
 
 export default function ContactForm() {
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        messages().then(data => {
-            console.log(data.data)
-        }).catch(error => {
-            console.log(error);
-        })
+        console.log(messages2());
     } 
 
     return (

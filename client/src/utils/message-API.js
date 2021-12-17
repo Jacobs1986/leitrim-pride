@@ -1,5 +1,9 @@
-import axios from "axios";
+export function messages() {
+    const test = "this is a test"
+    return test
+}
 
-export function messages(information) {
-    return axios.post("/api/message/send", information);
+export function messages2() {
+    const test = 'This is the second function'
+    return test
 }

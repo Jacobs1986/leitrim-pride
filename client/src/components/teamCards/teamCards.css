@@ -1,3 +1,7 @@
 .teamCards {
     color: black;
 }
+
+.cardMargins {
+    margin-bottom: 5px !important;
+}

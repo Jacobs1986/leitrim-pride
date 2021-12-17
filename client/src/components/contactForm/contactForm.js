@@ -4,7 +4,20 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 //Styling
 import "./contactForm.css";
 
+// API
+import { messages } from "../../utils/message-API";
+
 export default function ContactForm() {
+
+    const handleSendMessage = (event) => {
+        event.preventDefault();
+        messages().then(data => {
+            console.log(data.data)
+        }).catch(error => {
+            console.log(error);
+        })
+    } 
+
     return (
         <div id="contactDiv">
             <Form>
@@ -51,6 +64,7 @@ export default function ContactForm() {
                         <Button
                             variant='primary'
                             type='submit'
+                            onClick={handleSendMessage}
                         >
                             Send
                         </Button>

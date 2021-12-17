@@ -13,44 +13,27 @@ export default function TeamCards() {
             <h1 className="centerText">Meet Our Team</h1>
             <Container>
                 <Row>
-                    <Col xs={12} md={4} className='cardColumns'>
-                        <Card className='teamCards'>
-                            <Card.Img variant="top" src="./Images/charley.jpeg" />
-                            <Card.Body>
-                                <Card.Title className="centerText cardTitle">
-                                    Charley
-                                </Card.Title>
-                                <Card.Subtitle className="centerText cardMargins cardSubtitle">
-                                    Title:
-                                </Card.Subtitle>
-                                <Card.Subtitle className="centerText cardSubtitle">
-                                    Pronouns:
-                                </Card.Subtitle>
-                                <Card.Text className='cardText'>
-                                    This is a test
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col xs={12} md={4}>
-                        <Card className='teamCards'>
-                            <Card.Img variant="top" src="./Images/charley.jpeg" />
-                            <Card.Body>
-                                <Card.Title className="centerText cardTitle">
-                                    Charley
-                                </Card.Title>
-                                <Card.Subtitle className="centerText cardMargins cardSubtitle">
-                                    Title:
-                                </Card.Subtitle>
-                                <Card.Subtitle className="centerText cardSubtitle">
-                                    Pronouns:
-                                </Card.Subtitle>
-                                <Card.Text className='cardText'>
-                                    This is a test
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
+                    {teamInfo.map(person => (
+                        <Col key={person.id} xs={12} md={4} className='cardColumns'>
+                            <Card className='teamCards'>
+                                <Card.Img variant="top" src={person.image} />
+                                <Card.Body>
+                                    <Card.Title className="centerText cardTitle">
+                                        {person.name}
+                                    </Card.Title>
+                                    {person.title && <Card.Subtitle className="centerText cardMargins cardSubtitle">
+                                        Title: {person.title}
+                                    </Card.Subtitle>}
+                                    <Card.Subtitle className="centerText cardSubtitle">
+                                        Pronouns: {person.pronouns}
+                                    </Card.Subtitle>
+                                    <Card.Text className='cardText'>
+                                        {person.text}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    ))}
                 </Row>
             </Container>
         </div>

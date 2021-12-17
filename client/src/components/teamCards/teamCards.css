@@ -1,5 +1,17 @@
+.cardTitle {
+    font-size: 30px !important;
+}
+
+.cardSubtitle {
+    font-size: 20px !important;
+}
+
 .teamCards {
     color: black;
+}
+
+.cardText {
+    font-size: 18px;
 }
 
 .cardMargins {

@@ -21,7 +21,7 @@ export default function TeamCards() {
                         <Card.Subtitle className="centerText cardSubtitle">
                             Pronouns:
                         </Card.Subtitle>
-                        <Card.Text>
+                        <Card.Text className='cardText'>
                             This is a test
                         </Card.Text>
                     </Card.Body>

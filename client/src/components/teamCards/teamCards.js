@@ -15,6 +15,12 @@ export default function TeamCards() {
                         <Card.Title className="centerText">
                             Charley
                         </Card.Title>
+                        <Card.Subtitle className="centerText cardMargins">
+                            Title:
+                        </Card.Subtitle>
+                        <Card.Subtitle className="centerText">
+                            Pronouns:
+                        </Card.Subtitle>
                     </Card.Body>
                 </Card>
             </Container>

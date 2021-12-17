@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif !important;
+    background-color: steelblue !important;
+    color: white !important;
+}
+
+p {
+    font-size: 20px;
+}
+
+.centerText {
+    text-align: center;
+}

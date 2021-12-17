@@ -1,0 +1,64 @@
+.link {
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.link a {
+    color: black !important;
+}
+
+.link:hover {
+    color: skyblue !important;
+}
+
+.link a:hover {
+    color: skyblue !important;
+}
+
+.nav-home {
+    background-color: red;
+}
+
+.nav-about {
+    background-color: orange;
+}
+
+.nav-get {
+    background-color: yellow;
+}
+
+.nav-resources {
+    background-color: green;
+}
+
+.nav-donate {
+    background-color: blue;
+}
+
+.nav-contact {
+    background-color: purple;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-container {
+        padding: 0 9% !important;
+    }    
+}
+
+@media screen and (min-width: 992px) {
+    .nav-container {
+        padding: 0 19% !important;
+    }    
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-container {
+        padding: 0 18% !important;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-container {
+        padding: 0 25% !important;
+    }    
+}

@@ -4,7 +4,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 // Components
-import ContactForm from "../components/contact/contactForm";
+import ContactForm from "../components/contactForm/contactForm";
 
 export default function Contact() {
     return (

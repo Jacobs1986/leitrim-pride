@@ -1,7 +1,10 @@
 import React from "react";
+import TeamCards from "../components/teamCards/teamCards";
 
 export default function Team() {
     return (
-        <div>This page is ready!</div>
+        <div>
+            <TeamCards />
+        </div>
     );
 };

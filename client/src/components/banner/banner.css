@@ -1,5 +1,5 @@
 .bannerContainer {
-    padding: 0;
+    padding: 0 !important;
     position: relative;
 }
 
@@ -10,7 +10,7 @@
     left: 50%;
     transform: translate(-50%, -34%);
     color: white;
-    font-size: 23px;
+    font-size: 21px;
 }
 
 @media screen and (min-width: 600px) {

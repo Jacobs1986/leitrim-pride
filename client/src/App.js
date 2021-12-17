@@ -9,6 +9,7 @@ import Navigation from "./components/navbar/navbar";
 
 // Pages
 import Home from "./pages/home-page";
+import Team from "./pages/about";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Navigation />
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path='/team' element={<Team />} />
                 </Routes>
             </BrowserRouter>
         </div>

@@ -21,3 +21,13 @@
 .cardColumns {
     margin-bottom: 10px;
 }
+
+/* @media screen and (min-width: 812px) {
+    .cardSubtitle {
+        font-size: 16px !important;
+    }
+
+    .cardText {
+        font-size: 14px;
+    }
+} */

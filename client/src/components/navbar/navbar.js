@@ -31,7 +31,7 @@ export default function Navigation() {
                             <Nav.Link className='nav-get link'>Get Involved</Nav.Link>
                             <Nav.Link className='nav-resources link'>Resources</Nav.Link>
                             <Nav.Link className='nav-donate link'>Donate</Nav.Link>
-                            <Nav.Link className='nav-contact link'>Contact</Nav.Link>
+                            <Nav.Link href='/contact' className='nav-contact link'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

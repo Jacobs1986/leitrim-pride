@@ -12,15 +12,18 @@ export default function TeamCards() {
                 <Card className='teamCards'>
                     <Card.Img variant="top" src="./Images/charley.jpeg" />
                     <Card.Body>
-                        <Card.Title className="centerText">
+                        <Card.Title className="centerText cardTitle">
                             Charley
                         </Card.Title>
-                        <Card.Subtitle className="centerText cardMargins">
+                        <Card.Subtitle className="centerText cardMargins cardSubtitle">
                             Title:
                         </Card.Subtitle>
-                        <Card.Subtitle className="centerText">
+                        <Card.Subtitle className="centerText cardSubtitle">
                             Pronouns:
                         </Card.Subtitle>
+                        <Card.Text>
+                            This is a test
+                        </Card.Text>
                     </Card.Body>
                 </Card>
             </Container>

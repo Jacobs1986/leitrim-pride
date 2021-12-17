@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 
 //Styling
-// import "./contactForm.css";
+import "./contactForm.css";
 
 export default function ContactForm() {
     return (

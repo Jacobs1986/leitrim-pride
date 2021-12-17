@@ -14,7 +14,7 @@ export default function TeamCards() {
             <Container>
                 <Row>
                     {teamInfo.map(person => (
-                        <Col key={person.id} xs={12} md={4} className='cardColumns'>
+                        <Col key={person.id} xs={12} md={6} className='cardColumns'>
                             <Card className='teamCards'>
                                 <Card.Img variant="top" src={person.image} />
                                 <Card.Body>

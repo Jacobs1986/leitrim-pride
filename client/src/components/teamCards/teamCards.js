@@ -6,7 +6,7 @@ import "./teamCards.css";
 export default function TeamCards() {
     return (
         <div>
-            <h1>Meet Our Team</h1>
+            <h1 className="centerText">Meet Our Team</h1>
         </div>
     );
 };

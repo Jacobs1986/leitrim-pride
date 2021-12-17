@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "image": "./Images/charley.jpeg",
+        "name": "Charley",
+        "title": "Acting Chair",
+        "pronouns": "She/They",
+        "text": "Charley has been involved with Pride in Sligo since 2019 and works alongside members of the LGBTQI+ community with Full Spectrum Ireland and 8 Rays Leitrim. It is their job to help keep us all on point and work as both the face of Leitrim Pride and the Festival Director."
+    },
+    {
+        "id": "2",
+        "image": "./Images/niall.jpeg",
+        "name": "Niall",
+        "title": "Acting Secratary",
+        "pronouns": "He/Him",
+        "text": "Niall is also a member of Full Spectrum Ireland and 8 Rays Leitrim. Niall will be on hand to run through the paperwork and help manage emails and any correspondence. "
+    },
+    {
+        "id": "3",
+        "image": "./Images/marty.jpeg",
+        "name": "Marty",
+        "title": "Acting Treasurer",
+        "pronouns": "He/Him",
+        "text": "Since 2004 Marty has been involved as a committee member of OutWest, a social and support group for the LGBT+ community in the West of Ireland. Since 2006, he has been a volunteer on the Outwest LGBT+ Helpline, of which he is the current Coordinator. He was involved in the setting up of the National LGBT+ Helpline, which was launched in 2010. Marty is also a board member of LGBT Ireland."
+    },
+    {
+        "id": "3",
+        "image": "./Images/isolde.jpeg",
+        "name": "Isolde",
+        "title": "",
+        "pronouns": "She/Her",
+        "text": "Isolde is an artist and activist who works for the rights of LGBTI+ people, disabled people and women / gender minorities using a community-building approach. She is a volunteer with Leitrim Pride and co-founded Full Spectrum Ireland, a unique grass-roots network for disabled LGBTI+ people."
+    }
+]

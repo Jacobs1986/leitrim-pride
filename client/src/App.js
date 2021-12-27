@@ -14,7 +14,7 @@ import Contact from "./pages/contact";
 import ComingSoon from "./pages/coming-soon-page";
 
 function App() {
-    const comingSoon = true
+    const comingSoon = false
     return (
         <div>
             {comingSoon ? 

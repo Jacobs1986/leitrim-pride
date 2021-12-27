@@ -12,8 +12,7 @@ export default function ComingSoonImage() {
             <Container className="comingSoonImageContainer">
                 <Row>
                     <Col xs={12}>
-                        <Image 
-                            fluid
+                        <Image
                             src='./Images/logo.jpg'
                             alt="Leitrim Pride Logo"
                         />

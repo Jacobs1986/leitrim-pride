@@ -3,3 +3,9 @@
     text-shadow: 9px 9px 6px black;
     font-size: 4em;
 }
+
+@media screen and (min-width: 812px) {
+    .comingSoonText {
+        font-size: 5em;
+    }
+}

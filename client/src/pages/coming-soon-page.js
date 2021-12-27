@@ -1,10 +1,13 @@
 import React from "react";
 
 // Components
+import ComingSoonImage from "../components/comingSoonImage/comingSoonImage";
 
 
 export default function ComingSoon() {
     return (
-        <div>This page is ready!</div>
+        <div>
+            <ComingSoonImage />
+        </div>
     );
 };

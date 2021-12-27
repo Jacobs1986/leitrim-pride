@@ -3,7 +3,7 @@
 }
 
 .cardSubtitle {
-    font-size: 20px !important;
+    font-size: 25px !important;
 }
 
 .teamCards {
@@ -11,7 +11,7 @@
 }
 
 .cardText {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .cardMargins {
@@ -21,3 +21,31 @@
 .cardColumns {
     margin-bottom: 10px;
 }
+
+/* @media screen and (min-width: 1200px) {
+    .cardTitle {
+        font-size: 30px !important;
+    }
+    
+    .cardSubtitle {
+        font-size: 25px !important;
+    }
+
+    .cardText {
+    font-size: 20px;
+}
+} */
+
+/* @media screen and (min-width: 1200px) {
+    .cardTitle {
+        font-size: 40px !important;
+    }
+
+    .cardSubtitle {
+        font-size: 35px !important;
+    }
+
+    .cardText {
+        font-size: 30px;
+    }
+} */

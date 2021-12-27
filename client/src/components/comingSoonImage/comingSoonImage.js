@@ -9,7 +9,7 @@ import { Col, Container, Image, Row } from 'react-bootstrap';
 export default function ComingSoonImage() {
     return (
         <div>
-            <Container>
+            <Container className="comingSoonImageContainer">
                 <Row>
                     <Col xs={12}>
                         <Image 

@@ -13,6 +13,7 @@ export default function ComingSoonImage() {
                 <Row>
                     <Col xs={12}>
                         <Image
+                            fluid
                             src='./Images/logo.jpg'
                             alt="Leitrim Pride Logo"
                             className="soonImage"

@@ -15,6 +15,7 @@ export default function ComingSoonImage() {
                         <Image
                             src='./Images/logo.jpg'
                             alt="Leitrim Pride Logo"
+                            className="soonImage"
                         />
                     </Col>
                 </Row>

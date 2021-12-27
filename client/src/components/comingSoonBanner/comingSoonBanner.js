@@ -11,7 +11,7 @@ export default function ComingSoonBanner() {
         <div>
             <Container>
                 <Row>
-                    <Col xs={12} className="centerText">
+                    <Col xs={12} className="centerText comingSoonText">
                         COMING SOON!
                     </Col>
                 </Row>

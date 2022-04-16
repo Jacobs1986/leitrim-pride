@@ -39,7 +39,7 @@ export default function ContactForm() {
                             defaultValue="---"
                         >
                             <option>---</option>
-                            <option>Volunteer Oppertunities</option>
+                            <option>Volunteer Opportunities</option>
                             <option>Events</option>
                         </Form.Control>
                     </Col>

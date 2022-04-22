@@ -13,7 +13,14 @@ export default function ContactForm() {
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        console.log(form.current);
+        
+        // Send the message
+        emailjs.sendForm('service_e5v8g16', 'template_6dt0lza', form.current, '1xb_qnjmtcdvctNhr')
+            .then((results) => {
+                console.log(results.text)
+            }, (error) => {
+                console.log(error.text)
+            })
     } 
 
     return (

@@ -1,22 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
 
 //Styling
 import "./contactForm.css";
 
 // API
-import { messages2 } from "../../utils/message-API";
+// import { messages2 } from "../../utils/message-API";
 
 export default function ContactForm() {
+    const form = useRef()
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        console.log(messages2());
+        console.log(form.current);
     } 
 
     return (
         <div id="contactDiv">
-            <Form>
+            <Form ref={form} onSubmit={handleSendMessage}>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
                         <Form.Label>
@@ -60,7 +61,6 @@ export default function ContactForm() {
                         <Button
                             variant='primary'
                             type='submit'
-                            onClick={handleSendMessage}
                         >
                             Send
                         </Button>

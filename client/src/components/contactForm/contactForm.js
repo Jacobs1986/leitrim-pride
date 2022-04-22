@@ -1,40 +1,55 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 //Styling
 import "./contactForm.css";
 
 // API
-import { messages2 } from "../../utils/message-API";
+// import { messages2 } from "../../utils/message-API";
 
 export default function ContactForm() {
+    const form = useRef()
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        console.log(messages2());
+        
+        // Send the message
+        emailjs.sendForm('service_e5v8g16', 'template_6dt0lza', form.current, '1xb_qnjmtcdvctNhr')
+            .then((results) => {
+                console.log(results.text)
+            }, (error) => {
+                console.log(error.text)
+            })
     } 
 
     return (
         <div id="contactDiv">
-            <Form>
+            <Form ref={form} onSubmit={handleSendMessage}>
                 <Row>
                     <Col xs={12} md={6} lg={4}>
                         <Form.Label>
                             Your Name
                         </Form.Label>
-                        <Form.Control />
+                        <Form.Control 
+                            name="from_name"
+                        />
                     </Col>
                     <Col xs={12} md={6} lg={4}>
                         <Form.Label>
                             Your email
                         </Form.Label>
-                        <Form.Control />
+                        <Form.Control 
+                            type="email"
+                            name="reply_to"
+                        />
                     </Col>
                     <Col xs={12} md={4} lg={4}>
                         <Form.Label>
                             Subject
                         </Form.Label>
-                        <Form.Control 
+                        <Form.Control
+                            name="subject" 
                             as='select'
                             defaultValue="---"
                         >
@@ -52,6 +67,7 @@ export default function ContactForm() {
                         <Form.Control 
                             as="textarea"
                             rows='6'
+                            name="message"
                         />
                     </Col>
                 </Row>
@@ -60,7 +76,6 @@ export default function ContactForm() {
                         <Button
                             variant='primary'
                             type='submit'
-                            onClick={handleSendMessage}
                         >
                             Send
                         </Button>

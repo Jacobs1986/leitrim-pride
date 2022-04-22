@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 //Styling
 import "./contactForm.css";

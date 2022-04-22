@@ -23,19 +23,25 @@ export default function ContactForm() {
                         <Form.Label>
                             Your Name
                         </Form.Label>
-                        <Form.Control />
+                        <Form.Control 
+                            name="from_name"
+                        />
                     </Col>
                     <Col xs={12} md={6} lg={4}>
                         <Form.Label>
                             Your email
                         </Form.Label>
-                        <Form.Control />
+                        <Form.Control 
+                            type="email"
+                            name="reply_to"
+                        />
                     </Col>
                     <Col xs={12} md={4} lg={4}>
                         <Form.Label>
                             Subject
                         </Form.Label>
-                        <Form.Control 
+                        <Form.Control
+                            name="subject" 
                             as='select'
                             defaultValue="---"
                         >
@@ -53,6 +59,7 @@ export default function ContactForm() {
                         <Form.Control 
                             as="textarea"
                             rows='6'
+                            name="message"
                         />
                     </Col>
                 </Row>

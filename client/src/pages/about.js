@@ -9,6 +9,7 @@ import {
 
 // Components
 import WhoWeAreImage from "../components/whoWeAreImage/whoWeAreImage";
+import WhoWeAreLit from "../components/whoWeAreLit/whoWeAreLit";
 
 export default function About() {
     return (
@@ -16,8 +17,11 @@ export default function About() {
             <h1 className="centerText">Who We Are</h1>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col xs={12} md={12} lg={6}>
                         <WhoWeAreImage />
+                    </Col>
+                    <Col xs={12} md={12} lg={6}>
+                        <WhoWeAreLit />
                     </Col>
                 </Row>
             </Container>

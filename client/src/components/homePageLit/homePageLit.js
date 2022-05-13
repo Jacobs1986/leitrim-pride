@@ -13,7 +13,7 @@ import {
 export default function HomePageLit() {
     return (
         <div className="paragraphAfterBannerSpacing">
-            <Container>
+            <Container fluid>
                 <Row>
                     <Col xs={12}>
                         <p className="homePage-p">Leitrim Pride seeks to bring together individuals and organisations to empower, educate and support the Leitrim LGBTQI+ community through the production of an annual community LGBTQI+ Pride Festival and events throughout the year.</p>

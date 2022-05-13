@@ -7,7 +7,7 @@ export default function WhoWeAreImage() {
     return (
         <div>
             <Image 
-                src={require('./whoWeAreImage.jpeg')}
+                src={require('./whoWeAreImage.jpg')}
                 alt="Picture"
                 fluid
             />

@@ -9,22 +9,14 @@ import { Container, Image } from 'react-bootstrap';
 export default function Banner() {
     return (
         <div>
-            <Container fluid>
+            <Container className='bannerContainer' fluid>
                 <Image
-                    src={require('./bannerImage.jpeg')}
-                    fluid
+                    src='./Images/banner.jpeg'
+                    alt='banner'
+                    width='100%'
                 />
+                <div className='overlay'>A FIRST TIME FOR EVERYTHING</div>
             </Container>
         </div>
-        // <div>
-        //     <Container className='bannerContainer' fluid>
-        //         <Image
-        //             src='./Images/banner.jpeg'
-        //             alt='banner'
-        //             width='100%'
-        //         />
-        //         <div className='overlay'>A FIRST TIME FOR EVERYTHING</div>
-        //     </Container>
-        // </div>
     );
 };

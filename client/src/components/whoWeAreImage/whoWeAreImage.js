@@ -1,5 +1,8 @@
 import React from "react";
 
+// CSS File
+import "./whoWeAreImage.css"
+
 // Bootstrap
 // import { Image } from 'react-bootstrap';
 

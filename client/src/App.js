@@ -9,7 +9,8 @@ import Navigation from "./components/navbar/navbar";
 
 // Pages
 import Home from "./pages/home-page";
-import Team from "./pages/about";
+import About from "./pages/about";
+import Team from "./pages/team";
 import Contact from "./pages/contact";
 import ComingSoon from "./pages/coming-soon-page";
 
@@ -28,6 +29,7 @@ function App() {
                 <Navigation />
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path='/about' element={<About />} />
                     <Route path='/team' element={<Team />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>

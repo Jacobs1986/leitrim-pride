@@ -24,7 +24,8 @@ export default function Navigation() {
                         <Nav className='mr-auto'>
                             <Nav.Link className='nav-home link' href="/">Home</Nav.Link>
                             <NavDropdown title='About Us' className='nav-about link'>
-                                <NavDropdown.Item href='/team'>Who We Are</NavDropdown.Item>
+                                <NavDropdown.Item href='/about'>Who We Are</NavDropdown.Item>
+                                <NavDropdown.Item href='/team'>Meet the Team</NavDropdown.Item>
                                 <NavDropdown.Item>Our Mission</NavDropdown.Item>
                                 <NavDropdown.Item>Constitution</NavDropdown.Item>
                             </NavDropdown>

@@ -1,0 +1,9 @@
+.whoWeAreTextCol {
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .whoWeAreTextCol {
+        margin-top: 0em;
+    }
+}

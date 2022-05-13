@@ -5,7 +5,7 @@ import "./whoWeAreLit.css";
 
 export default function WhoWeAreLit() {
     return (
-        <div>
+        <div className='whoWeAreTextCol'>
             <p>Leitrim Pride aims to reflect, equally, the diversity within the LGBTQI+ community by encouraging positive participation from the community in the Leitrim Pride committee and events.</p>
 
             <p>Leitrim Pride is a volunteer-led, non-profit LGBTQI+ community Pride Festival which aims to organise an accessible, safe and viable Pride for members of Leitrim’s LGBTQI+ community and our family, friends and allies from all over.</p>

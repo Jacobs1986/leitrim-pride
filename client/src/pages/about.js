@@ -1,7 +1,23 @@
 import React from "react";
 
+// Bootstrap
+import {
+    Container,
+    Row,
+    Col
+} from 'react-bootstrap'
+
 export default function About() {
     return (
-        <div>This is the about page</div>
+        <div>
+            <h1 className="centerText">Who We Are</h1>
+            <Container>
+                <Row>
+                    <Col md={6}>
+
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 };

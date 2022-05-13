@@ -9,7 +9,12 @@ import { Container, Image } from 'react-bootstrap';
 export default function Banner() {
     return (
         <div>
-            New banner goes here
+            <Container fluid>
+                <Image
+                    src={require('./bannerImage.jpeg')}
+                    fluid
+                />
+            </Container>
         </div>
         // <div>
         //     <Container className='bannerContainer' fluid>

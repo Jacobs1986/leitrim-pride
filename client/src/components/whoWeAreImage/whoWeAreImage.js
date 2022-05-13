@@ -6,7 +6,11 @@ import { Image } from 'react-bootstrap';
 export default function WhoWeAreImage() {
     return (
         <div>
-            Image will go here
+            <Image 
+                src={require('./whoWeAreImage.jpeg')}
+                alt="Picture"
+                fluid
+            />
         </div>
     );
 };

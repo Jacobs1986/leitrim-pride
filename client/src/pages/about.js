@@ -7,6 +7,9 @@ import {
     Col
 } from 'react-bootstrap'
 
+// Components
+import WhoWeAreImage from "../components/whoWeAreImage/whoWeAreImage";
+
 export default function About() {
     return (
         <div>
@@ -14,7 +17,7 @@ export default function About() {
             <Container>
                 <Row>
                     <Col md={6}>
-
+                        <WhoWeAreImage />
                     </Col>
                 </Row>
             </Container>

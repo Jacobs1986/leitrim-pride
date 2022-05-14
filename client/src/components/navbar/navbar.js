@@ -30,7 +30,7 @@ export default function Navigation() {
                                 <NavDropdown.Item>Constitution</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link className='nav-get link'>Get Involved</Nav.Link>
-                            <Nav.Link className='nav-resources link'>Resources</Nav.Link>
+                            <Nav.Link className='nav-resources link'>Events</Nav.Link>
                             <Nav.Link className='nav-donate link'>Donate</Nav.Link>
                             <Nav.Link href='/contact' className='nav-contact link'>Contact</Nav.Link>
                         </Nav>

@@ -16,7 +16,7 @@ export default function TeamCards() {
                     {teamInfo.map(person => (
                         <Col key={person.id} xs={12} md={6} lg={4} className='cardColumns'>
                             <Card className='teamCards'>
-                                <Card.Img variant="top" src={person.image} />
+                                <Card.Img variant="top" src={require('./pride-flag-01.webp')} />
                                 <Card.Body>
                                     <Card.Title className="centerText cardTitle">
                                         {person.name}

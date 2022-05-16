@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 
 //Styling
 import "./teamCards.css";
@@ -12,7 +12,22 @@ export default function TeamCards() {
         <div>
             <h1 className="centerText">Meet Our Team</h1>
             <Container>
-                <Row>
+                {teamInfo.map(person => (
+                    <Row key={person.id}>
+                        <Col md={4}>
+                            <Image src={require('./pride-flag-01.webp')} alt='Bio picture' fluid />
+                            <div className="centerText">
+                                <h2>{person.name}</h2>
+                                <h4>Title: {person.title}</h4>
+                                <h4>Pronouns: {person.pronouns}</h4>
+                            </div>
+                        </Col>
+                        <Col md={8}>
+                            {person.text.split("\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                        </Col>
+                    </Row>
+                ))}
+                {/* <Row>
                     {teamInfo.map(person => (
                         <Col key={person.id} xs={12} md={6} lg={4} className='cardColumns'>
                             <Card className='teamCards'>
@@ -34,7 +49,7 @@ export default function TeamCards() {
                             </Card>
                         </Col>
                     ))}
-                </Row>
+                </Row> */}
             </Container>
         </div>
     );

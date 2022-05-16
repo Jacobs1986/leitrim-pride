@@ -1,0 +1,45 @@
+.contactDiv {
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .contactDiv {
+        height: 55.6em;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .contactDiv {
+        height: 65.3em;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .contactDiv {
+        height: 77.1em;
+    }
+}
+
+@media screen and (min-width: 914px) {
+    .contactDiv {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contactDiv {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .contactDiv {
+        height: 48.6em;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .contactDiv {
+        height: auto;
+    }
+}

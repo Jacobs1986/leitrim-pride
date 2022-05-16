@@ -7,7 +7,8 @@ import "./footer.css";
 import {
     Container,
     Row,
-    Col
+    Col,
+    Image
 } from 'react-bootstrap'
 
 export default function Footer() {
@@ -24,6 +25,9 @@ export default function Footer() {
                         </div>
                         <div>
                             <a href='/contact'>Contact Us</a> | 
+                            <Image src='./Images/facebook.png' alt='Facebook icon' className="footerSocialMediaIcon" />
+                            <Image src='./Images/instagram.png' alt='Instagram icon' className="footerSocialMediaIcon" />
+                            <Image src='./Images/twitter.png' alt='Twitter icon' className="footerSocialMediaIcon" />
                         </div>
                     </Col>
                     <Col lg={4}>

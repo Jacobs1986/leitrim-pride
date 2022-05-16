@@ -12,7 +12,7 @@ import {
 
 export default function HomePageLit() {
     return (
-        <div className="paragraphAfterBannerSpacing">
+        <div className="paragraphAfterBannerSpacing homeLitParagraph">
             <Container fluid>
                 <Row>
                     <Col xs={12}>

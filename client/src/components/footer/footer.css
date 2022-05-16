@@ -1,6 +1,6 @@
 footer {
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    padding: 1em;
+    padding: 0.5em;
     color: white;
     font-weight: bold;
 }

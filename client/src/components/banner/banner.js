@@ -11,7 +11,7 @@ export default function Banner() {
         <div>
             <Container className='bannerContainer' fluid>
                 <Image
-                    src='./Images/banner.jpeg'
+                    src={require('./homePageBanner.jpg')}
                     alt='banner'
                     width='100%'
                 />

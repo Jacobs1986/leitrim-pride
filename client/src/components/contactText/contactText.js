@@ -6,7 +6,8 @@ import "./contactText.css";
 // Bootstrap
 import {
     Row,
-    Col
+    Col,
+    Image
 } from 'react-bootstrap'
 
 export default function ContactText() {
@@ -24,6 +25,9 @@ export default function ContactText() {
                     <p>
                         And as always don’t forget to follow us on our social media:
                     </p>
+                    <Image src='./Images/facebook.png' alt='Facebook Icon' className='contactPageSocialMediaIcon' />
+                    <Image src='./Images/instagram.png' alt='Instagram Icon' className='contactPageSocialMediaIcon' />
+                    <Image src='./Images/twitter.png' alt='Twitter Icon' className='contactPageSocialMediaIcon' />
                 </Col>
             </Row>
         </div>

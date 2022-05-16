@@ -3,32 +3,88 @@
         "id": "1",
         "image": "./Images/charley.jpeg",
         "name": "Charley",
-        "title": "Acting Chair",
+        "title": "Chair",
         "pronouns": "She/They",
-        "text": "Charley has been involved with Pride in Sligo since 2019 and works alongside members of the LGBTQI+ community with Full Spectrum Ireland and 8 Rays Leitrim. It is their job to help keep us all on point and work as both the face of Leitrim Pride and the Festival Director."
+        "text": "Originally from England UK, they have been calling North Leitrim home since 2013. Charley is Bi/Pan and is a founding member of Leitrim Pride and has worked with several other LGBTQ+ groups down the years including OutWest and Sligo Pride, she is a current Steering Group member of Full Spectrum Ireland (Ireland's first disabled LGBTQI+ peer support group). Her passion for promoting visibility and acceptance for the LGBTQ+ community can also be seen in their professional work, as she is the co-owner of Tully Crafts with their mother Davina, which sells a wide range of LGBTQ+ and Esoteric hand crafted items, currently stocking over 40 different LGBTQ+ flag designs. They can often be found making items for Tully Crafts of an evening."
     },
     {
         "id": "2",
         "image": "./Images/niall.jpeg",
         "name": "Niall",
-        "title": "Acting Secratary",
+        "title": "Secratary",
         "pronouns": "He/Him",
-        "text": "Niall is also a member of Full Spectrum Ireland and 8 Rays Leitrim. Niall will be on hand to run through the paperwork and help manage emails and any correspondence. "
+        "text": "Niall is originally from Sligo and has lived in South-Leitrim for the last 20 years. He has worked as YES Equality Leitrim Co-Lead (2015) during the 2015 Marriage Equality Referendum. He helped set-up 8 Rays Leitrim – Leitrim’s first LGBTI+ community and social group (2011-present). He currently serves as secretary of Leitrim Pride Festival and is one of the founding members of Sligo Pride Festival (2019-2021). In 2020, he joined the steering group of FULL SPECTRUM IRELAND: Disabled LGBTI+ Peer Network as the acting-chair. Niall is trained as a sexual health promoter with the Foundational Programme in Sexual Health Promotion (FPSHP) and HIV Ireland’s ‘Let’s Talk About... Safer Sex!” training for trainers programme. Key Interests: LGBTI+ Rights, Disability Rights, Sexual Health and Well-being, Mental Health"
     },
     {
         "id": "3",
+        "image": "",
+        "name": "Andrea",
+        "title": "Treasurer",
+        "pronouns": "",
+        "text": ""
+    },
+    {
+        "id": "4",
+        "image": "",
+        "name": "Gavin",
+        "title": "Public Relations (PRO)",
+        "pronouns": "",
+        "text": ""
+    },
+    {
+        "id": "5",
+        "image": "",
+        "name": "Isolde",
+        "title": "Events Chair",
+        "pronouns": "She/Her",
+        "text": ""
+    },
+    {
+        "id": "6",
+        "image": "",
+        "name": "Sarah",
+        "title": "Social Media Coordinator",
+        "pronouns": "",
+        "text": ""
+    },
+    {
+        "id": "7",
         "image": "./Images/marty.jpeg",
         "name": "Marty",
-        "title": "Acting Treasurer",
+        "title": "OCM",
         "pronouns": "He/Him",
-        "text": "Since 2004 Marty has been involved as a committee member of OutWest, a social and support group for the LGBT+ community in the West of Ireland. Since 2006, he has been a volunteer on the Outwest LGBT+ Helpline, of which he is the current Coordinator. He was involved in the setting up of the National LGBT+ Helpline, which was launched in 2010. Marty is also a board member of LGBT Ireland."
+        "text": "Marty (he/him) was born in England, and has lived in Co. Leitrim since 1986. Having worked in England for fifteen years teaching second level sciences, and then in Ireland in Community Development and Adult Education, Marty is now retired from paid work. Marty has been involved with OutWest since 2002, originally as a patron attending their social meetings, before joining their Committee in 2004. Marty is also on the Board of LGBT Ireland which, among other things, oversees the National LGBT Helpline. Marty was actually involved in the initial planning sessions before the launch of the Helpline in 2010."
     },
     {
-        "id": "3",
-        "image": "./Images/isolde.jpeg",
-        "name": "Isolde",
-        "title": "",
-        "pronouns": "She/Her",
-        "text": "Isolde is an artist and activist who works for the rights of LGBTI+ people, disabled people and women / gender minorities using a community-building approach. She is a volunteer with Leitrim Pride and co-founded Full Spectrum Ireland, a unique grass-roots network for disabled LGBTI+ people."
+        "id": "8",
+        "image": "",
+        "name": "Laoisa",
+        "title": "OCM",
+        "pronouns": "",
+        "text": ""
+    },
+    {
+        "id": "9",
+        "image": "",
+        "name": "Katie",
+        "title": "OCM",
+        "pronouns": "",
+        "text": "Katie identifies as a Bisexual woman, she is originally from England UK and moved to Ireland in 2003. She has been living in south Leitrim for just over 2 years. She originally joined Leitrim pride as a steering committee member in the Summer of 2021 and has continued to participate as an Ordinary Committee Member since then.Katie has previously done voluntary work with LINC, a group dedicated to advocating for lesbian and bisexual woman in Ireland. Katie was keen to join the committee as she felt there needed to be more representation of the LGBTQ+ community, especially in rural Ireland."
+    },
+    {
+        "id": "10",
+        "image": "",
+        "name": "Kevin",
+        "title": "OCM",
+        "pronouns": "",
+        "text": ""
+    },
+    {
+        "id": "11",
+        "image": "",
+        "name": "Patrick",
+        "title": "OCM",
+        "pronouns": "",
+        "text": ""
     }
 ]

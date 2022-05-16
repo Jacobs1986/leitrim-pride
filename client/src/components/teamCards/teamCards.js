@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Container, Image, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 
 //Styling
 import "./teamCards.css";

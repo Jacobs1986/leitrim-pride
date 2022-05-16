@@ -5,16 +5,13 @@ import { Col, Container, Row } from "react-bootstrap";
 
 // Components
 import ContactForm from "../components/contactForm/contactForm";
+import ContactText from "../components/contactText/contactText";
 
 export default function Contact() {
     return (
         <div>
             <Container>
-                <Row>
-                    <Col lg={12}>
-                        We love hearing from you. Please send us a message!
-                    </Col>
-                </Row>
+                <ContactText />
                 <ContactForm />
             </Container>
         </div>

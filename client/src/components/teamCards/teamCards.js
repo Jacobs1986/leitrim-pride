@@ -17,7 +17,7 @@ export default function TeamCards() {
                         <Col md={4}>
                             <Image src={require('./pride-flag-01.webp')} alt='Bio picture' fluid />
                             <div className="centerText">
-                                <h3>{person.name}</h3>
+                                <h2>{person.name}</h2>
                                 <h4>Title: {person.title}</h4>
                                 <h4>Pronouns: {person.pronouns}</h4>
                             </div>

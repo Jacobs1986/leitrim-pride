@@ -23,7 +23,7 @@ export default function TeamCards() {
                             </div>
                         </Col>
                         <Col md={8}>
-                            {person.text}
+                            {person.text.split("\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}
                         </Col>
                     </Row>
                 ))}

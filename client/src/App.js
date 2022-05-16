@@ -13,6 +13,7 @@ import About from "./pages/about";
 import Team from "./pages/team";
 import Contact from "./pages/contact";
 import ComingSoon from "./pages/coming-soon-page";
+import Footer from "./components/footer/footer";
 
 function App() {
     const comingSoon = false
@@ -33,6 +34,7 @@ function App() {
                     <Route path='/team' element={<Team />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>}
         </div>
     );

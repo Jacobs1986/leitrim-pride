@@ -4,7 +4,7 @@ import React from "react";
 import { Container  } from "react-bootstrap";
 
 // CSS File
-import './contact.css';
+import './css/contact.css';
 
 // Components
 import ContactForm from "../components/contactForm/contactForm";

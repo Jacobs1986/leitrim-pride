@@ -17,7 +17,6 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col lg={4}>
-                        Column 1
                     </Col>
                     <Col lg={4}>
                         <div>
@@ -31,7 +30,6 @@ export default function Footer() {
                         </div>
                     </Col>
                     <Col lg={4}>
-                        Column 3
                     </Col>
                 </Row>
             </Container>

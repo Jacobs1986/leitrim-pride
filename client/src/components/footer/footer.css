@@ -1,0 +1,12 @@
+footer {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.footerSocialMediaIcon {
+    width: 1em;
+    margin: 0 3px;
+}

@@ -15,7 +15,7 @@ export default function ContactForm() {
         event.preventDefault();
         
         // Send the message
-        emailjs.sendForm('service_e5v8g16', 'template_6dt0lza', form.current, '1xb_qnjmtcdvctNhr')
+        emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
             .then((results) => {
                 console.log(results.text)
             }, (error) => {

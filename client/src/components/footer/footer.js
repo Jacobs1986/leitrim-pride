@@ -23,7 +23,7 @@ export default function Footer() {
                             <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> Leitrim Pride 2022
                         </div>
                         <div>
-                            <a href='/contact'>Contact Us</a>
+                            <a href='/contact'>Contact Us</a> | 
                         </div>
                     </Col>
                     <Col lg={4}>

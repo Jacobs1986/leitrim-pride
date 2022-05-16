@@ -19,7 +19,12 @@ export default function Footer() {
                         Column 1
                     </Col>
                     <Col lg={4}>
-                        Column 2
+                        <div>
+                            <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> Leitrim Pride 2022
+                        </div>
+                        <div>
+                            <a href='/contact'>Contact Us</a>
+                        </div>
                     </Col>
                     <Col lg={4}>
                         Column 3

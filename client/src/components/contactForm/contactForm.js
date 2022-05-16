@@ -55,7 +55,8 @@ export default function ContactForm() {
                         >
                             <option>---</option>
                             <option>Volunteer Opportunities</option>
-                            <option>Events</option>
+                            <option>Event Questions</option>
+                            <option>Kudos</option>
                         </Form.Control>
                     </Col>
                 </Row>

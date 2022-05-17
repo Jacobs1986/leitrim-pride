@@ -16,14 +16,14 @@ export default function ConstructionPage() {
         <div className='constructionDiv'>
             <Container>
                 <Row>
-                    <Col xs={12} sm={12}>
+                    <Col xs={12} sm={12} lg={6}>
                         <Image 
                             src={require('./under-construction.jpeg')}
                             alt='Contruction Sign'
                             fluid
                         />
                     </Col>
-                    <Col xs={12} sm={12}>
+                    <Col xs={12} sm={12} lg={6}>
                         <p className="centerText constructionText">
                             We are hard at work creating content for this page. Come back soon to see the update!
                         </p>

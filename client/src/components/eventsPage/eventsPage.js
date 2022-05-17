@@ -16,13 +16,14 @@ export default function EventsPage() {
         <div className='eventsDiv'>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col xs={12} sm={12} md={6}>
                         <Image 
                             src='./Images/Coming-Soon-PNG-Image.png'
                             alt='Coming Soon sign'
+                            className='comingSoonImage'
                         />
                     </Col>
-                    <Col md={6}>
+                    <Col xs={12} sm={12} md={6}>
                         <p className='eventsComingSoonText'>
                             We have some exciting events coming soon. Check back later to find out what they are!
                         </p>

@@ -3,8 +3,33 @@ import React from "react";
 // CSS File
 import "./constructionPage.css";
 
+// Bootstrap
+import {
+    Container,
+    Row,
+    Col,
+    Image
+} from 'react-bootstrap';
+
 export default function ConstructionPage() {
     return (
-        <div>This is the construction component</div>
+        <div>
+            <Container>
+                <Row>
+                    <Col xs={12} sm={12}>
+                        <Image 
+                            src={require('./under-construction.jpeg')}
+                            alt='Contruction Sign'
+                            fluid
+                        />
+                    </Col>
+                    <Col xs={12} sm={12}>
+                        <p className="centerText">
+                            We are hard to create content for this page. Come back soon to see the update!
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 };

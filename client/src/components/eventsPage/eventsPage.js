@@ -13,7 +13,7 @@ import {
 
 export default function EventsPage() {
     return (
-        <div>
+        <div className='eventsDiv'>
             <Container>
                 <Row>
                     <Col md={6}>

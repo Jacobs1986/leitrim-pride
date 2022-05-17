@@ -1,7 +1,12 @@
 import React from "react";
 
+// Components
+import ConstructionPage from "../components/constructionPage/constructionPage";
+
 export default function UnderConstruction() {
     return (
-        <div>This is the Under Construction page!</div>
+        <div>
+            <ConstructionPage />
+        </div>
     );
 };

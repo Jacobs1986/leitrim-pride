@@ -25,7 +25,7 @@ export default function ConstructionPage() {
                     </Col>
                     <Col xs={12} sm={12}>
                         <p className="centerText">
-                            We are hard to create content for this page. Come back soon to see the update!
+                            We are hard at work creating content for this page. Come back soon to see the update!
                         </p>
                     </Col>
                 </Row>

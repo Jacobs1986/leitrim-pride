@@ -26,12 +26,12 @@ export default function Navigation() {
                             <NavDropdown title='About Us' className='nav-about link'>
                                 <NavDropdown.Item href='/about'>Who We Are</NavDropdown.Item>
                                 <NavDropdown.Item href='/team'>Meet the Team</NavDropdown.Item>
-                                <NavDropdown.Item>Our Mission</NavDropdown.Item>
-                                <NavDropdown.Item>Constitution</NavDropdown.Item>
+                                <NavDropdown.Item href='/construction'>Our Mission</NavDropdown.Item>
+                                <NavDropdown.Item href='/construction'>Constitution</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link className='nav-get link'>Get Involved</Nav.Link>
+                            <Nav.Link className='nav-get link' href='/construction'>Get Involved</Nav.Link>
                             <Nav.Link className='nav-resources link' href='/events'>Events</Nav.Link>
-                            <Nav.Link className='nav-donate link'>Donate</Nav.Link>
+                            <Nav.Link className='nav-donate link' href='/construction'>Donate</Nav.Link>
                             <Nav.Link href='/contact' className='nav-contact link'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

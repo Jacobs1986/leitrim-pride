@@ -20,7 +20,7 @@ export default function ConstructionPage() {
                         <Image 
                             src={require('./under-construction.jpeg')}
                             alt='Contruction Sign'
-                            fluid
+                            className="constructionSignImage"
                         />
                     </Col>
                     <Col xs={12} sm={12}>

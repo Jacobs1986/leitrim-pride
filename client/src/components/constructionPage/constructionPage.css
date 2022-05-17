@@ -7,6 +7,10 @@
     margin: 1em 0em;
 }
 
+.constructionSignImage {
+    width: 100%;
+}
+
 @media screen and (min-width: 360px) {
     .constructionDiv {
         height: 37.8em;
@@ -152,5 +156,10 @@
 
     .constructionText {
         margin: 1em 0em;
+    }
+
+    .constructionSignImage {
+        width: 50%;
+        margin: 0 25%;
     }
 }

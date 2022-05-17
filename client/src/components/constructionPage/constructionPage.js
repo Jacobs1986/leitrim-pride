@@ -13,7 +13,7 @@ import {
 
 export default function ConstructionPage() {
     return (
-        <div>
+        <div className='constructionDiv'>
             <Container>
                 <Row>
                     <Col xs={12} sm={12}>

@@ -1,0 +1,165 @@
+.constructionDiv {
+    height: 33.3em;
+}
+
+.constructionText {
+    font-size: 2em;
+    margin: 1em 0em;
+}
+
+.constructionSignImage {
+    width: 100%;
+}
+
+@media screen and (min-width: 360px) {
+    .constructionDiv {
+        height: 37.8em;
+    }
+
+    .constructionText {
+        font-size: 2.33em;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .constructionDiv {
+        height: 44.4em;
+    }
+
+    .constructionText {
+        font-size: 2.6em;
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 393px) {
+    .constructionDiv {
+        height: 44.8em
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .constructionDiv {
+        height: 48.8em;
+    }
+
+    .constructionText {
+        font-size: 2.8em;
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .constructionDiv {
+        height: 47.6em;
+    }
+
+    .constructionText {
+        font-size: 2.6em;
+        margin: 2em 0em;
+    }
+}
+
+@media screen and (min-width: 653px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .constructionDiv {
+        height: 55.5em
+    }
+
+    .constructionText {
+        font-size: 3.4em;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .constructionText {
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .constructionDiv {
+        height: 65.3em;
+    }
+
+    .constructionText {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 896px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        font-size: 2.6em;
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .constructionDiv {
+        height: 76.9em;
+    }
+
+    .constructionText {
+        font-size: 4em;
+        margin: 2em 0em;
+    }
+}
+
+@media screen and (min-width: 914px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        font-size: 3em;
+        margin: 1em 0em;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .constructionDiv {
+        height: auto;
+    }
+
+    .constructionText {
+        margin: 1em 0em;
+    }
+
+    .constructionSignImage {
+        width: 50%;
+        margin: 0 25%;
+    }
+}

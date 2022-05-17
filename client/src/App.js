@@ -15,6 +15,7 @@ import Contact from "./pages/contact";
 import ComingSoon from "./pages/coming-soon-page";
 import Events from "./pages/events";
 import Footer from "./components/footer/footer";
+import UnderConstruction from "./pages/underConstruction";
 
 function App() {
     const comingSoon = false
@@ -35,6 +36,7 @@ function App() {
                     <Route path='/team' element={<Team />} />
                     <Route path='/events' element={<Events />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/construction' element={<UnderConstruction />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>}

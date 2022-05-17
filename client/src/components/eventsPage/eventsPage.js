@@ -20,7 +20,7 @@ export default function EventsPage() {
                         <Image 
                             src='./Images/Coming-Soon-PNG-Image.png'
                             alt='Coming Soon sign'
-                            className='comingSoonImage'
+                            className='comingSoonImage eventsComingSoon'
                         />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={6}>

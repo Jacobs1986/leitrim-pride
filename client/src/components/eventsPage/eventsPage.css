@@ -1,0 +1,136 @@
+.eventsComingSoonText {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.eventsDiv {
+    height: 31em;
+}
+
+@media screen and (min-width: 360px) {
+    .eventsDiv {
+        height: 35.4em
+    }
+
+    .eventsComingSoonText {
+        margin: 15px 0px;
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .eventsDiv {
+        height: 41.8em;
+    }
+
+    .eventsComingSoonText {
+        margin: 15px 0px;
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .eventsDiv {
+        height: 46.2em;
+    }
+
+    .eventsComingSoonText {
+        margin: 48px 0;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .eventsDiv {
+        height: 45em;
+    }
+
+    .eventsComingSoonText {
+        margin: 15px 0px;
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .eventsDiv {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .eventsDiv {
+        height: 52.6em;
+    }
+
+    .eventsComingSoonText {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .eventsDiv {
+        height: 62.3em
+    }
+
+    .eventsComingSoonText {
+        margin: 1em 0;
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .eventsDiv {
+        height: auto;
+    }
+
+    .eventsComingSoonText {
+        text-align: center;
+        font-size: 2em;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .eventsDiv {
+        height: 73.9em;
+    }
+
+    .eventsComingSoonText {
+        font-size: 4.5em;
+        margin: 1em 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .eventsDiv {
+        height: 36.3em;
+    }
+
+    .eventsComingSoonText {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .eventsDiv {
+        height: 39.3em;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .eventsDiv {
+        height: 30.5em;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .eventsDiv {
+        height: 45.1em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .eventsDiv {
+        height: 31.3em;
+    }
+}

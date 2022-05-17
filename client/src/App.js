@@ -13,6 +13,7 @@ import About from "./pages/about";
 import Team from "./pages/team";
 import Contact from "./pages/contact";
 import ComingSoon from "./pages/coming-soon-page";
+import Events from "./pages/events";
 import Footer from "./components/footer/footer";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/team' element={<Team />} />
+                    <Route path='/events' element={<Events />} />
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <Footer />

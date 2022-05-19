@@ -24,7 +24,9 @@ export default function Footer() {
                         </div>
                         <div>
                             <a href='/contact'>Contact Us</a> | 
-                            <Image src='./Images/facebook.png' alt='Facebook icon' className="footerSocialMediaIcon" />
+                            <a href="https://www.facebook.com/LeitrimPride" target={"_blank"} rel='noreferrer'>
+                                <Image src='./Images/facebook.png' alt='Facebook icon' className="footerSocialMediaIcon" />
+                            </a>
                             <Image src='./Images/instagram.png' alt='Instagram icon' className="footerSocialMediaIcon" />
                             <Image src='./Images/twitter.png' alt='Twitter icon' className="footerSocialMediaIcon" />
                         </div>

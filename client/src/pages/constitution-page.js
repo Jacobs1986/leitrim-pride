@@ -7,6 +7,9 @@ import {
     Col
 } from 'react-bootstrap';
 
+// Components
+import ConstitutionViewer from "../components/constitutionViewer/constitutionViewer";
+
 export default function Constitution() {
     return (
         <div>
@@ -19,7 +22,7 @@ export default function Constitution() {
                 </Row>
                 <Row>
                     <Col>
-                        The viewer for the PDF
+                        <ConstitutionViewer />
                     </Col>
                 </Row>
             </Container>

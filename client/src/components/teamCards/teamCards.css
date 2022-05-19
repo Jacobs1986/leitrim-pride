@@ -1,4 +1,9 @@
-.cardTitle {
+.bioRow {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+
+/* .cardTitle {
     font-size: 30px !important;
 }
 
@@ -20,7 +25,7 @@
 
 .cardColumns {
     margin-bottom: 10px;
-}
+} */
 
 /* @media screen and (min-width: 1200px) {
     .cardTitle {

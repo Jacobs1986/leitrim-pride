@@ -26,8 +26,7 @@ export default function Navigation() {
                             <NavDropdown title='About Us' className='nav-about link'>
                                 <NavDropdown.Item href='/about'>Who We Are</NavDropdown.Item>
                                 <NavDropdown.Item href='/team'>Meet the Team</NavDropdown.Item>
-                                <NavDropdown.Item href='/construction'>Our Mission</NavDropdown.Item>
-                                <NavDropdown.Item href='/construction'>Constitution</NavDropdown.Item>
+                                <NavDropdown.Item href='/mission'>Mission & Values</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link className='nav-get link' href='/construction'>Get Involved</Nav.Link>
                             <Nav.Link className='nav-resources link' href='/events'>Events</Nav.Link>

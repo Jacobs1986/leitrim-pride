@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "./Images/charley.jpeg",
+        "image": "",
         "name": "Charley",
         "title": "Chair",
         "pronouns": "She/They",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "image": "./Images/niall.jpeg",
+        "image": "",
         "name": "Niall",
         "title": "Secretary",
         "pronouns": "He/Him",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "image": "./Images/marty.jpeg",
+        "image": "martin_cooke.jpeg",
         "name": "Marty",
         "title": "OCM",
         "pronouns": "He/Him",

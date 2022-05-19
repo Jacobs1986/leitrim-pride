@@ -28,8 +28,12 @@ export default function ContactText() {
                     <a href="https://www.facebook.com/LeitrimPride" target="_blank" rel="noreferrer">
                         <Image src='./Images/facebook.png' alt='Facebook Icon' className='contactPageSocialMediaIcon' />
                     </a>
-                    <Image src='./Images/instagram.png' alt='Instagram Icon' className='contactPageSocialMediaIcon' />
-                    <Image src='./Images/twitter.png' alt='Twitter Icon' className='contactPageSocialMediaIcon' />
+                    <a href="https://www.instagram.com/leitrimpride/" target="_blank" rel="noreferrer">
+                        <Image src='./Images/instagram.png' alt='Instagram Icon' className='contactPageSocialMediaIcon' />
+                    </a>
+                    <a href="https://twitter.com/LeitrimPride" target="_blank" rel="noreferrer">
+                        <Image src='./Images/twitter.png' alt='Twitter Icon' className='contactPageSocialMediaIcon' />
+                    </a>
                 </Col>
             </Row>
         </div>

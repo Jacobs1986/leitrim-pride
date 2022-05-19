@@ -13,7 +13,7 @@ export default function TeamCards() {
             <h1 className="centerText">Meet Our Team</h1>
             <Container>
                 {teamInfo.map(person => (
-                    <Row key={person.id}>
+                    <Row key={person.id} className='bioRow'>
                         <Col md={4}>
                             <Image src={require('./pride-flag-01.webp')} alt='Bio picture' fluid />
                             <div className="centerText">

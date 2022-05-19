@@ -15,7 +15,11 @@ export default function TeamCards() {
                 {teamInfo.map(person => (
                     <Row key={person.id} className='bioRow'>
                         <Col md={4}>
-                            <Image src={require('./pride-flag-01.webp')} alt='Bio picture' fluid />
+                            {!person.image ? 
+                                <Image src={require('./pride-flag-01.webp')} alt='Pride Flag' fluid />
+                                :
+                                <Image src={require(`./${person.image}`)}  alt="Bio Picture" fluid />
+                            }
                             <div className="centerText">
                                 <h2>{person.name}</h2>
                                 <h4>Title: {person.title}</h4>

@@ -21,7 +21,7 @@ export default function Constitution() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col xs={12}>
                         <ConstitutionViewer />
                     </Col>
                 </Row>

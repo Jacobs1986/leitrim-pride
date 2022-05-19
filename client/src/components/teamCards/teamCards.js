@@ -13,23 +13,26 @@ export default function TeamCards() {
             <h1 className="centerText">Meet Our Team</h1>
             <Container>
                 {teamInfo.map(person => (
-                    <Row key={person.id} className='bioRow'>
-                        <Col md={4}>
-                            {!person.image ? 
-                                <Image src={require('./pride-flag-01.webp')} alt='Pride Flag' fluid />
-                                :
-                                <Image src={require(`./${person.image}`)}  alt="Bio Picture" fluid />
-                            }
-                            <div className="centerText">
-                                <h2>{person.name}</h2>
-                                <h4>Title: {person.title}</h4>
-                                <h4>Pronouns: {person.pronouns}</h4>
-                            </div>
-                        </Col>
-                        <Col md={8}>
-                            {person.text.split("\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}
-                        </Col>
-                    </Row>
+                    <div>
+                        {!person.text ? <Row></Row> :
+                            <Row key={person.id} className='bioRow'>
+                            <Col md={4}>
+                                {!person.image ?
+                                    <Image src={require('./pride-flag-01.webp')} alt='Pride Flag' fluid />
+                                    :
+                                    <Image src={require(`./${person.image}`)} alt="Bio Picture" fluid />
+                                }
+                                <div className="centerText">
+                                    <h2>{person.name}</h2>
+                                    <h4>Title: {person.title}</h4>
+                                    <h4>Pronouns: {person.pronouns}</h4>
+                                </div>
+                            </Col>
+                            <Col md={8}>
+                                {person.text.split("\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                            </Col>
+                        </Row>}
+                    </div>
                 ))}
                 {/* <Row>
                     {teamInfo.map(person => (

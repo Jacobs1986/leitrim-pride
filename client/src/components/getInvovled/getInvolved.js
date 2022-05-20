@@ -29,6 +29,14 @@ export default function GetInvovledComp() {
                     </Col>
                 </Row>
                 <Row>
+                    <Col lg={6}>
+                        <VolunteeringRoles />
+                    </Col>
+                    <Col lg={6}>
+                        <VolunteeringOffer />
+                    </Col>
+                </Row>
+                {/* <Row>
                     <Col>
                         <VolunteeringOffer />
                     </Col>
@@ -37,7 +45,7 @@ export default function GetInvovledComp() {
                     <Col>
                         <VolunteeringRoles />
                     </Col>
-                </Row>
+                </Row> */}
                 <Row>
                     <Col>
                         <TimeCommitment />

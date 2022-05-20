@@ -13,43 +13,46 @@ export default function ContactForm() {
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        
+
         // Send the message
         emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
             .then((results) => {
-                console.log(results.text)
+                console.log(results)
+                alert('Thank you for your message! We\'ll get back to you ASAP!')
             }, (error) => {
                 console.log(error.text)
             })
-    } 
+    }
 
     return (
         <div id="contactDiv">
             <Form ref={form} onSubmit={handleSendMessage}>
                 <Row>
-                    <Col xs={12} md={6} lg={4}>
+                    <Col xs={12} md={6} lg={6}>
                         <Form.Label>
                             Your Name
                         </Form.Label>
-                        <Form.Control 
+                        <Form.Control
                             name="from_name"
                         />
                     </Col>
-                    <Col xs={12} md={6} lg={4}>
+                    <Col xs={12} md={6} lg={6}>
                         <Form.Label>
                             Your email
                         </Form.Label>
-                        <Form.Control 
+                        <Form.Control
                             type="email"
                             name="reply_to"
                         />
                     </Col>
+                </Row>
+                <Row>
                     <Col xs={12} md={4} lg={4}>
                         <Form.Label>
                             Subject
                         </Form.Label>
                         <Form.Control
-                            name="subject" 
+                            name="subject"
                             as='select'
                             defaultValue="---"
                         >
@@ -65,14 +68,14 @@ export default function ContactForm() {
                         <Form.Label>
                             Write us a message!
                         </Form.Label>
-                        <Form.Control 
+                        <Form.Control
                             as="textarea"
                             rows='6'
                             name="message"
                         />
                     </Col>
                 </Row>
-                <Row style={{ paddingTop: '1em'}}>
+                <Row style={{ paddingTop: '1em' }}>
                     <Col>
                         <Button
                             variant='primary'

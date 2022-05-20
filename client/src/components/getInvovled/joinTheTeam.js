@@ -13,7 +13,9 @@ export default function JoinTheTeam() {
             <p>
                 Can you help out by volunteering some of your time? Folks get involved for a variety of reasons: to make a stand for Equality, to give back to the community, to gain new skills and experiences and to make new friends. All we ask for is a commitment to making Leitrim Pride the best it can be and be ready to pull up those sleeves and get stuck in.
             </p>
-            <p>Pride is built on action!</p>
+            <p>
+                Pride is built on action!
+            </p>
         </div>
     );
 };

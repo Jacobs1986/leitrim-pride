@@ -14,7 +14,7 @@ import {
 export default function GetInvolvedBanner() {
     return (
         <div>
-            <Container fluid style={{ marginBottom: '5px', padding: '0px' }}>
+            <Container fluid style={{ marginBottom: '1em', padding: '0px' }}>
                 <Row>
                     <Col>
                         <Image

@@ -1,5 +1,6 @@
 .getInvolvedHeader {
     font-weight: bold;
+    text-align: center;
 }
 
 .getInvolvedList > li {

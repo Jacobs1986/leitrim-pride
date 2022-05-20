@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "",
+        "image": "charley_utting.png",
         "name": "Charley",
         "title": "Chair",
         "pronouns": "She/They",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "image": "",
+        "image": "niall_jordan.jpeg",
         "name": "Niall",
         "title": "Secretary",
         "pronouns": "He/Him",
@@ -17,11 +17,11 @@
     },
     {
         "id": "3",
-        "image": "",
+        "image": "andrea_carr.jpeg",
         "name": "Andrea",
         "title": "Treasurer",
-        "pronouns": "",
-        "text": ""
+        "pronouns": "She/Her",
+        "text": "Andrea is coming up to her second year of life in Leitrim, having been happily blown off course from Brighton. \nShe was part of an LGBT+ parent's group there, which met weekly in order to share and support each other so that they could in turn support teens. She volunteered at Transpride Brighton where she was blown away at seeing so many young people happy and comfortable in their skins, just being themselves. \nShe believes in the importance promoting the visibility for the LBGT+ community and that is what Leitrim Pride does. \nAndrea has worked in the finance sector of various women's groups in Dublin and London for many years."
     },
     {
         "id": "4",

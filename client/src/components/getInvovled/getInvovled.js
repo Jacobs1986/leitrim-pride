@@ -3,8 +3,10 @@ import React from "react";
 // CSS File
 import "./getInvolved.css";
 
-export default function GetInvovledText() {
+export default function GetInvovledComp() {
     return (
-        <div>This is the get involved component</div>
+        <div>
+            <h3 className="centerText">Get Involved</h3>
+        </div>
     );
 };

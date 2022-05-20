@@ -9,6 +9,8 @@ import {
 
 // Components
 import WhoWeAreImage from "../components/whoWeAreImage/whoWeAreImage";
+import OurMission from "../components/whoWeAreLit/ourMission";
+import OurValues from "../components/whoWeAreLit/ourValues";
 import WhoWeAreLit from "../components/whoWeAreLit/whoWeAreLit";
 
 export default function About() {
@@ -22,6 +24,8 @@ export default function About() {
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={8}>
                         <WhoWeAreLit />
+                        <OurMission />
+                        <OurValues />
                     </Col>
                 </Row>
             </Container>

@@ -6,7 +6,7 @@ import "./getInvolved.css";
 export default function JoinTheTeam() {
     return (
         <div>
-            <h4 className='joinTheTeamHeader'>Join the Team!</h4>
+            <h4 className='getInvolvedHeader'>Join the Team!</h4>
             <p>
                 Be part of the team that makes Leitrim Pride happen! Leitrim Pride is community effort – invaluable hours of volunteering make the festival everything, ranging from members of the community joining the committee and planning teams, to members of the community helping with decorations and stewarding at the Pride March. Leitrim Pride puts Visibility to the fore for many rural living LGBTI+ folk – we celebrate, commemorate and protest to create this much needed visibility. We also host events as part of our LGBTI+ Community & Arts Festival.
             </p>

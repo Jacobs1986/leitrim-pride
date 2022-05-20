@@ -42,7 +42,7 @@ function App() {
                     <Route path='/constitution' element={<Constitution />} />
                     <Route path='/mission' element={<Mission />} />
                     <Route path='/construction' element={<UnderConstruction />} />
-                    <Route path='/getinvovled' element={<GetInvolved />} />
+                    <Route path='/getinvolved' element={<GetInvolved />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>}

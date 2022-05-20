@@ -7,7 +7,8 @@ import "./getInvolved.css";
 import {
     Container,
     Row,
-    Col
+    Col,
+    Image
 } from 'react-bootstrap';
 
 // Components
@@ -20,6 +21,17 @@ export default function GetInvovledComp() {
     return (
         <div>
             <h2 className="centerText">Get Involved</h2>
+            <Container fluid style={{ marginBottom: '5px', padding: '0px' }}>
+                <Row>
+                    <Col>
+                        <Image
+                            src={require('./get-involved-banner.jpg')}
+                            alt='Page banner'
+                            fluid
+                        />
+                    </Col>
+                </Row>
+            </Container>
             <Container>
                 <Row>
                     <Col>

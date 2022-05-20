@@ -5,6 +5,17 @@ import "./getInvolved.css";
 
 export default function VolunteeringRoles() {
     return (
-        <div>This is the volunteering role paragraph</div>
+        <div>
+            <h4 className='getInvolvedHeader'>Roles</h4>
+            <ul className='getInvolvedList'>
+                <li>Events Crew</li>
+                <li>Events Management</li>
+                <li>Pride March Stewards</li>
+                <li>Fundraising</li>
+                <li>Social Media</li>
+                <li>Photography / Video</li>
+                <li>Finance and Administration</li>
+            </ul>
+        </div>
     );
 };

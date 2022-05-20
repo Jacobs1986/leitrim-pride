@@ -7,6 +7,13 @@
     margin-bottom: 5px;
 }
 
+.constitutionText {
+    font-weight: bold;
+}
+
+.constitutionLink {
+    text-decoration: none;
+}
 @media screen and (min-width: 1024px) {
     .whoWeAreTextCol {
         margin-top: 0em;

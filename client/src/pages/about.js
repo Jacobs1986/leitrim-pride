@@ -26,6 +26,9 @@ export default function About() {
                         <WhoWeAreLit />
                         <OurMission />
                         <OurValues />
+                        <p className='constitutionText'>
+                            For more information please <a href='constitution.pdf' target="_blank" className='constitutionLink'>click here</a> to view our constitution.
+                        </p>
                     </Col>
                 </Row>
             </Container>

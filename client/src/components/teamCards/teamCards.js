@@ -20,7 +20,7 @@ export default function TeamCards() {
                                 {!person.image ?
                                     <Image src={require('./pride-flag-01.webp')} alt='Pride Flag' fluid />
                                     :
-                                    <Image src={require(`./${person.image}`)} alt="Bio Picture" fluid />
+                                    <Image src={require(`./${person.image}`)} alt={`${person.name} Headshot`} fluid />
                                 }
                                 <div className="centerText">
                                     <h2>{person.name}</h2>

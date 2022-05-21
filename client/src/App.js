@@ -17,7 +17,7 @@ import Events from "./pages/events";
 import Footer from "./components/footer/footer";
 import UnderConstruction from "./pages/underConstruction";
 import Constitution from "./pages/constitution-page";
-import Mission from "./pages/mission-page";
+// import Mission from "./pages/mission-page";
 import GetInvolved from "./pages/getInvolved-page";
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
                     <Route path='/events' element={<Events />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/constitution' element={<Constitution />} />
-                    <Route path='/mission' element={<Mission />} />
+                    {/* <Route path='/mission' element={<Mission />} /> */}
                     <Route path='/construction' element={<UnderConstruction />} />
                     <Route path='/getinvolved' element={<GetInvolved />} />
                 </Routes>

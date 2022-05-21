@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Button, Col, Form, Row } from "react-bootstrap";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 //Styling
 import "./contactForm.css";
@@ -9,24 +9,24 @@ import "./contactForm.css";
 // import { messages2 } from "../../utils/message-API";
 
 export default function ContactForm() {
-    const form = useRef()
+    // const form = useRef()
 
     const handleSendMessage = (event) => {
         event.preventDefault();
 
         // Send the message
-        emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
-            .then((results) => {
-                console.log(results)
-                alert('Thank you for your message! We\'ll get back to you ASAP!')
-            }, (error) => {
-                console.log(error.text)
-            })
+        // emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
+        //     .then((results) => {
+        //         console.log(results)
+        //         alert('Thank you for your message! We\'ll get back to you ASAP!')
+        //     }, (error) => {
+        //         console.log(error.text)
+        //     })
     }
 
     return (
         <div id="contactDiv">
-            <Form ref={form} onSubmit={handleSendMessage}>
+            {/* <Form ref={form} onSubmit={handleSendMessage}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>
                         <Form.Label>
@@ -85,7 +85,7 @@ export default function ContactForm() {
                         </Button>
                     </Col>
                 </Row>
-            </Form>
+            </Form> */}
         </div>
     );
 };

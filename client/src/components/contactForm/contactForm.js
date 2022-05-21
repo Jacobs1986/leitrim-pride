@@ -1,5 +1,12 @@
-import React, { useRef } from "react";
-import { Button, Col, Form, Row } from "react-bootstrap";
+// import React, { useRef } from "react";
+import React, {
+    useReducer
+} from 'react';
+import { 
+    Button, 
+    Col, 
+    Form, 
+    Row } from "react-bootstrap";
 // import emailjs from "@emailjs/browser";
 
 //Styling
@@ -7,6 +14,18 @@ import "./contactForm.css";
 
 // API
 // import { messages2 } from "../../utils/message-API";
+
+// Reducer
+function reducer(state, event) {
+    if (event.reset) {
+        state = {}
+        return state
+    }
+    return {
+        ...state,
+        [event.name]: event.value
+    }
+}
 
 export default function ContactForm() {
     // const form = useRef()
@@ -26,6 +45,9 @@ export default function ContactForm() {
 
     return (
         <div id="contactDiv">
+            <Form onSubmit={handleSendMessage}>
+
+            </Form>
             {/* <Form ref={form} onSubmit={handleSendMessage}>
                 <Row>
                     <Col xs={12} md={6} lg={6}>

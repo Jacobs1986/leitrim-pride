@@ -6,6 +6,10 @@
     margin: 1em auto;
 }
 
+input:invalid {
+    border: 2px red solid !important;
+}
+
 @media screen and (min-width: 992px) {
     #contactDiv {
         width: 60em;

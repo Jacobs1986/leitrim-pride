@@ -1,6 +1,7 @@
 // import React, { useRef } from "react";
 import React, {
-    useReducer
+    useReducer,
+    useState
 } from 'react';
 
 // Bootstrap
@@ -33,6 +34,7 @@ function reducer(state, event) {
 export default function ContactForm() {
     // const form = useRef()
     const [messageInfo, setMessageInfo] = useReducer(reducer, {})
+    const [nameCheck, setNameCheck] = useState(false)
 
     const handleMessageInput = event => {
         setMessageInfo({
@@ -63,9 +65,11 @@ export default function ContactForm() {
                             Your Name
                         </Form.Label>
                         <Form.Control
+                            type="text"
                             name="from_name"
-                            value={messageInfo.form_name}
+                            value={messageInfo.from_name || ""}
                             onChange={handleMessageInput}
+                            required
                         />
                     </Col>
                     <Col xs={12} md={6} lg={6}>
@@ -77,6 +81,7 @@ export default function ContactForm() {
                             name="reply_to"
                             value={messageInfo.reply_to || ""}
                             onChange={handleMessageInput}
+                            required
                         />
                     </Col>
                 </Row>

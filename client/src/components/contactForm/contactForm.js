@@ -29,6 +29,7 @@ function reducer(state, event) {
 
 export default function ContactForm() {
     // const form = useRef()
+    const [messageInfo, setMessageInfo] = useReducer(reducer, {})
 
     const handleSendMessage = (event) => {
         event.preventDefault();

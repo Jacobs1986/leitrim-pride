@@ -48,7 +48,25 @@ export default function ContactForm() {
 
     const handleSendMessage = (event) => {
         event.preventDefault();
-        console.log(messageInfo);
+        // Check to see if the name field is blank
+        if (!messageInfo.from_name || messageInfo.from_name === "") {
+            setNameCheck(true);
+            return
+        }
+        if (!messageInfo.reply_to || messageInfo.reply_to === "") {
+            setEmailCheck(true);
+            return
+        }
+        if (!messageInfo.subject || messageInfo.subject === "---") {
+            setSubjectCheck(true);
+            return
+        }
+        if (!messageInfo.message || messageInfo.message === "") {
+            setMessageCheck(true);
+            return
+        }
+        alert('All the fields are filled in.')
+        // console.log(messageInfo);
         // Send the message
         // emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
         //     .then((results) => {
@@ -72,7 +90,6 @@ export default function ContactForm() {
                             name="from_name"
                             value={messageInfo.from_name || ""}
                             onChange={handleMessageInput}
-                            required
                         />
                         {!nameCheck ? <div></div> : <Form.Text className="errorCheck">Please enter a name.</Form.Text>}
                     </Col>
@@ -85,7 +102,6 @@ export default function ContactForm() {
                             name="reply_to"
                             value={messageInfo.reply_to || ""}
                             onChange={handleMessageInput}
-                            required
                         />
                         {!emailCheck ? <div></div> : <Form.Text className="errorCheck">Please enter an email address.</Form.Text>}
                     </Col>

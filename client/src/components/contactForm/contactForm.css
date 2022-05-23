@@ -6,6 +6,10 @@
     margin: 1em auto;
 }
 
+.errorCheck {
+    color: red !important;
+}
+
 /* input:invalid {
     border: 2px red solid !important;
 } */

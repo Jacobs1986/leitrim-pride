@@ -33,8 +33,11 @@ function reducer(state, event) {
 
 export default function ContactForm() {
     // const form = useRef()
-    const [messageInfo, setMessageInfo] = useReducer(reducer, {})
-    const [nameCheck, setNameCheck] = useState(false)
+    const [messageInfo, setMessageInfo] = useReducer(reducer, {});
+    const [nameCheck, setNameCheck] = useState(false);
+    const [emailCheck, setEmailCheck] = useState(false);
+    const [subjectCheck, setSubjectCheck] = useState(false);
+    const [messageCheck, setMessageCheck] = useState(false);
 
     const handleMessageInput = event => {
         setMessageInfo({
@@ -71,7 +74,7 @@ export default function ContactForm() {
                             onChange={handleMessageInput}
                             required
                         />
-                        <Form.Text className="errorCheck">Please enter a name.</Form.Text>
+                        {!nameCheck ? <div></div> : <Form.Text className="errorCheck">Please enter a name.</Form.Text>}
                     </Col>
                     <Col xs={12} md={6} lg={6}>
                         <Form.Label>
@@ -84,7 +87,7 @@ export default function ContactForm() {
                             onChange={handleMessageInput}
                             required
                         />
-                        <Form.Text className="errorCheck">Please enter an email address.</Form.Text>
+                        {!emailCheck ? <div></div> : <Form.Text className="errorCheck">Please enter an email address.</Form.Text>}
                     </Col>
                 </Row>
                 <Row>
@@ -104,7 +107,7 @@ export default function ContactForm() {
                             <option>Event Questions</option>
                             <option>Kudos</option>
                         </Form.Control>
-                        <Form.Text className="errorCheck">Please choose a subject.</Form.Text>
+                        {!subjectCheck ? <div></div> : <Form.Text className="errorCheck">Please choose a subject.</Form.Text>}
                     </Col>
                 </Row>
                 <Row>
@@ -119,7 +122,7 @@ export default function ContactForm() {
                             value={messageInfo.message}
                             onChange={handleMessageInput}
                         />
-                        <Form.Text className="errorCheck">Please enter a message.</Form.Text>
+                        {!messageCheck ? <div></div> : <Form.Text className="errorCheck">Please enter a message.</Form.Text>}
                     </Col>
                 </Row>
                 <Row style={{ paddingTop: '1em' }}>

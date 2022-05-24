@@ -19,17 +19,8 @@ import "./contactForm.css";
 // API
 // import { messages2 } from "../../utils/message-API";
 
-// Reducer
-function reducer(state, event) {
-    if (event.reset) {
-        state = {}
-        return state
-    }
-    return {
-        ...state,
-        [event.name]: event.value
-    }
-}
+// Functions
+import { reducer } from './functions';
 
 export default function ContactForm() {
     // const form = useRef()
@@ -65,7 +56,6 @@ export default function ContactForm() {
             setMessageCheck(true);
             return
         }
-        alert('All the fields are filled in.')
         // console.log(messageInfo);
         // Send the message
         // emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')
@@ -122,6 +112,7 @@ export default function ContactForm() {
                             <option>Volunteer Opportunities</option>
                             <option>Event Questions</option>
                             <option>Kudos</option>
+                            <option>Other</option>
                         </Form.Control>
                         {!subjectCheck ? <div></div> : <Form.Text className="errorCheck">Please choose a subject.</Form.Text>}
                     </Col>

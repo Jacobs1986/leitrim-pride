@@ -1,3 +1,6 @@
+// EmailJs
+import emailjs from '@emailjs/browser';
+
 // Reducer function
 export function reducer(state, event) {
     if (event.reset) {
@@ -11,7 +14,11 @@ export function reducer(state, event) {
 }
 
 // Send the message
-export function sendMessage(messageInfo) {
-    console.log(messageInfo)
-    return
+export function sendMessage(serviceId, templateId, messageInfo, key) {
+    emailjs.sendForm (serviceId, templateId, messageInfo, key)
+        .then((results => {
+            return results;
+        }, (error) => {
+            return error.text;
+        }))
 }

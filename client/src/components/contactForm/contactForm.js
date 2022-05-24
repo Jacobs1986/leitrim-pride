@@ -20,16 +20,7 @@ import "./contactForm.css";
 // import { messages2 } from "../../utils/message-API";
 
 // Reducer
-function reducer(state, event) {
-    if (event.reset) {
-        state = {}
-        return state
-    }
-    return {
-        ...state,
-        [event.name]: event.value
-    }
-}
+import { reducer } from './functions';
 
 export default function ContactForm() {
     // const form = useRef()

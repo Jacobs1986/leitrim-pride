@@ -9,3 +9,9 @@ export function reducer(state, event) {
         [event.name]: event.value
     }
 }
+
+// Send the message
+export function sendMessage(messageInfo) {
+    console.log(messageInfo)
+    return
+}

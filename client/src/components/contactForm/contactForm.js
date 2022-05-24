@@ -20,7 +20,7 @@ import "./contactForm.css";
 // import { messages2 } from "../../utils/message-API";
 
 // Functions
-import { reducer, sendMessage } from './functions';
+import { reducer } from './functions';
 
 export default function ContactForm() {
     // const form = useRef()
@@ -56,7 +56,6 @@ export default function ContactForm() {
             setMessageCheck(true);
             return
         }
-        console.log(sendMessage('service_e5v8g16', 'template_6dt0lza', messageInfo, '1xb_qnjmtcdvctNhr'))
         // console.log(messageInfo);
         // Send the message
         // emailjs.sendForm('service_rzc3jxe', 'template_32kveqk', form.current, 'hjTQGHelMqEMMP7I-')

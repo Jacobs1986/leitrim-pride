@@ -10,5 +10,89 @@
     left: 50%;
     transform: translate(-50%, -34%);
     color: white;
-    font-size: 25px;
+    font-size: 19px;
+}
+
+@media screen and (min-width: 360px) {
+    .overlay {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .overlay {
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .overlay {
+        font-size: 37px;
+    }
+}
+
+@media screen and (min-width: 653px) {
+    .overlay {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 667px) {
+    .overlay {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .overlay {
+        font-size: 49px;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .overlay {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .overlay {
+        font-size: 56px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .overlay {
+        font-size: 57px;
+    }
+}
+
+@media screen and (min-width: 896px) {
+    .overlay {
+        font-size: 61px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .overlay {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .overlay {
+        font-size: 81px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .overlay {
+        font-size: 87px;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .overlay {
+        font-size: 93px;
+    }
 }

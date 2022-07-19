@@ -6,7 +6,7 @@ import EventsPage from "../components/eventsPage/eventsPage";
 export default function Events() {
     return (
         <div>
-            <h1 className="centerText">Upcoming Events</h1>
+            <h1 className="centerText">Events</h1>
             <EventsPage />
         </div>
     );

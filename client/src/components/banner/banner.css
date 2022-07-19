@@ -10,35 +10,5 @@
     left: 50%;
     transform: translate(-50%, -34%);
     color: white;
-    font-size: 21px;
-}
-
-@media screen and (min-width: 600px) {
-    .overlay {
-        font-size: 34px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .overlay {
-        font-size: 43px;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .overlay {
-        font-size: 56px;
-    }
-}
-
-@media screen and (min-width: 1300px) {
-    .overlay {
-        font-size: 74px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .overlay {
-        font-size: 81px;
-    }
+    font-size: 25px;
 }

@@ -1,0 +1,9 @@
+/* Import layout */
+@import "./styles/layout.css";
+
+/* Styling for the body of the site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 246, 206);
+    margin: 0px;
+}

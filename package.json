@@ -1,0 +1,13 @@
+{
+  "name": "leitrim-pride",
+  "version": "1.0.0",
+  "description": "A website for Leitrim Pride, an LGBTQIA+ organization",
+  "main": "index.js",
+  "repository": "https://github.com/Jacobs1986/leitrim-pride.git",
+  "author": "Sean Jacobson <sean.jacobson86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

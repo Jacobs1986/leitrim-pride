@@ -19,6 +19,7 @@ import Team from "./pages/team-page";
 
 // Components
 import NavBar from "./components/navBar/navBar";
+import Footer from "./components/footer/footer";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path='/getinvolved' element={<GetInvolved />} />
                     <Route path='/team' element={<Team />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
         </div>
     );

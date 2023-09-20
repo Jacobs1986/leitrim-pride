@@ -24,19 +24,25 @@ export default function NavBar() {
             <div className="topNav" id="myTopNav">
                 {/* Home page Link */}
                 <a href="/">Home</a>
-                {/* Portfolio Dropdown */}
+                {/* About Dropdown */}
                 <div className="dropdown">
-                    <button className="dropbtn">Portfolio
+                    <button className="dropbtn">About
                         <FaCaretDown />
                     </button>
                     {/* Dropdown content */}
                     <div className="dropdown-content">
-                        {/* Featured link */}
-                        <a href="/featured">Featured</a>
-                        {/* Portfolio */}
-                        <a href="/portfolio">All Projects</a>
+                        {/* About link */}
+                        <a href="/about">Who We Are</a>
+                        {/* Team link */}
+                        <a href="/team">Meet The Team</a>
                     </div>
                 </div>
+                {/* Get Involved Link */}
+                <a href="/getinvolved">Get Involved</a>
+                {/* Events Link */}
+                <a href="/events">Events</a>
+                {/* Donate Link */}
+                <a href="/donate">Donate</a>
                 {/* Contact */}
                 <a href="/contact">Contact</a>
             </div>

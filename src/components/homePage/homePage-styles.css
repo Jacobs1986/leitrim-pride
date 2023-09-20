@@ -16,8 +16,14 @@
     text-shadow: 5px 5px 3px black;
 }
 
+/* Literature styling */
+.homePageLitP {
+    font-size: 22px;
+}
+
 /* Small screen styling */
 @media screen and (min-width: 600px) {
+
     /* Banner Overlay */
     .homePageBannerOverlay {
         font-size: 45px;
@@ -26,14 +32,21 @@
 
 /* Medium screen styling */
 @media screen and (min-width: 768px) {
+
     /* Banner Overlay */
     .homePageBannerOverlay {
         font-size: 56px;
+    }
+
+    /* Literature styling */
+    .homePageLitP {
+        font-size: 35px;
     }
 }
 
 /* Large screen styling */
 @media screen and (min-width: 992px) {
+
     /* Banner Overlay */
     .homePageBannerOverlay {
         font-size: 81px;
@@ -42,6 +55,7 @@
 
 /* Extra large screen styling */
 @media screen and (min-width: 1200px) {
+
     /* Banner Overlay */
     .homePageBannerOverlay {
         font-size: 98px;

@@ -5,7 +5,7 @@ import "./homePage-styles.css";
 
 export default function HomePageLit() {
     return (
-        <div className="container">
+        <div className="container homePageLitContainer">
             <div className="row">
                 {/* Home Page literature */}
                 <div className="col-xl-12">

@@ -1,0 +1,126 @@
+/* Import link styles */
+@import "./linkStyling.css";
+
+/* Add color to the topNav */
+.topNav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topNav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+/* Hide the icon */
+.icon {
+    display: none;
+}
+
+/* Dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    margin: 0px;
+    background-color: inherit;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside dropdown */
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topNav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Show the icon */
+@media screen and (max-width: 600px) {
+    .icon {
+        display: block;
+        font-size: 25px;
+        padding: 5px;
+    }
+
+    .topNav {
+        height: 0px;
+    }
+}
+
+/* Add a responsive class */
+@media screen and (max-width: 600px) {
+    .topNav.responsive {
+        position: relative;
+        height: auto;
+        display: block;
+    }
+
+    .topNav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topNav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topNav.responsive .dropdown {
+        float: none;
+    }
+
+    .topNav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topNav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}

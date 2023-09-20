@@ -1,5 +1,8 @@
 import React from "react";
 
+// Components
+import WhoWeAreImage from "../components/aboutPage/whoWeAreImage";
+
 export default function About() {
     return (
         <div>
@@ -10,7 +13,7 @@ export default function About() {
                 <div className="row">
                     {/* Image */}
                     <div className="col-xs-12">
-                        
+                        <WhoWeAreImage />
                     </div>
                 </div>
             </div>

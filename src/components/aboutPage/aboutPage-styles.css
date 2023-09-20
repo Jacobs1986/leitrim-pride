@@ -1,0 +1,9 @@
+/* Styling for the whoWeAre images */
+#whoWeAreVertImage, #whoWeAreHorzImage {
+    width: 100%;
+}
+
+/* Hide the vertical image on small screen */
+#whoWeAreVertImage {
+    display: none;
+}

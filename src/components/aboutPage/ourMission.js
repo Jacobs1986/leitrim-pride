@@ -5,7 +5,7 @@ import "./aboutPage-styles.css";
 
 export default function OurMission() {
     return (
-        <div>
+        <div className="ourMissionDiv">
             <h4 style={{ textAlign: 'center'}}>Our Mission</h4>
             <ul className='aboutList'>
                 <li>

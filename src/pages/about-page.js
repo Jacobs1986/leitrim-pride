@@ -15,11 +15,11 @@ export default function About() {
             <div className="container">
                 <div className="row">
                     {/* Image */}
-                    <div className="col-xs-12">
+                    <div className="col-xs-12 col-lg-5">
                         <WhoWeAreImage />
                     </div>
                     {/* Literature */}
-                    <div className="col-xs-12">
+                    <div className="col-xs-12 col-lg-7">
                         <AboutLit />
                         <OurMission />
                         <OurValues />

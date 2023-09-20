@@ -1,5 +1,5 @@
 .container {
-    padding: 10px;
+    /* padding: 10px; */
     box-sizing: border-box;
 }
 
@@ -17,7 +17,7 @@
 /* Columns */
 [class*="col-"] {
     float: left;
-    /* padding: 5px; */
+    padding: 5px;
     /* border: 1px solid red; */
 }
 

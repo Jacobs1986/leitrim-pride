@@ -5,7 +5,7 @@ import "./aboutPage-styles.css";
 
 export default function AboutLit() {
     return (
-        <div>
+        <div className="aboutText">
             <p>
                 Leitrim Pride aims to reflect, equally, the diversity within the LGBTQI+ community by encouraging positive participation from the community in the Leitrim Pride committee and events.
             </p>

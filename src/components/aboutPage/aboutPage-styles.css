@@ -7,3 +7,26 @@
 #whoWeAreVertImage {
     display: none;
 }
+
+/* Styling for medium devices */
+@media only screen and (min-width: 768px) {
+    .aboutText > p, .aboutList {
+        font-size: 27px;
+    }
+
+    .ourMissionDiv > h4, .ourValuesDiv > h4 {
+        font-size: 33px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Hide the horizontal image */
+    #whoWeAreHorzImage {
+        display: none;
+    }
+
+    /* Show the vertical Image */
+    #whoWeAreVertImage {
+        display: block;
+    }
+}

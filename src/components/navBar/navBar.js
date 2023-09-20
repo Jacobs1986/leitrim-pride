@@ -23,10 +23,10 @@ export default function NavBar() {
             {/* Navigation bar */}
             <div className="topNav" id="myTopNav">
                 {/* Home page Link */}
-                <a href="/">Home</a>
+                <a href="/" id="homeLink">Home</a>
                 {/* About Dropdown */}
                 <div className="dropdown">
-                    <button className="dropbtn">About
+                    <button className="dropbtn" id="aboutBtn">About
                         <FaCaretDown />
                     </button>
                     {/* Dropdown content */}
@@ -38,13 +38,13 @@ export default function NavBar() {
                     </div>
                 </div>
                 {/* Get Involved Link */}
-                <a href="/getinvolved">Get Involved</a>
+                <a href="/getinvolved" id="getinvolvedLink">Get Involved</a>
                 {/* Events Link */}
-                <a href="/events">Events</a>
+                <a href="/events" id="eventsLink">Events</a>
                 {/* Donate Link */}
-                <a href="/donate">Donate</a>
+                <a href="/donate" id="donateLink">Donate</a>
                 {/* Contact */}
-                <a href="/contact">Contact</a>
+                <a href="/contact" id="contactLink">Contact</a>
             </div>
         </div>
     );

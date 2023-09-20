@@ -1,0 +1,62 @@
+/* Home link style */
+#homeLink {
+    background-color: red;
+}
+
+#homeLink:hover {
+    background-color: darkred;
+}
+
+/* About btn */
+#aboutBtn {
+    background-color: orange;
+}
+
+#aboutBtn:hover {
+    background-color: darkorange;
+}
+
+/* Get involved Link */
+#getinvolvedLink {
+    background-color: yellow;
+}
+
+#getinvolvedLink:hover {
+    background-color: goldenrod;
+}
+
+/* Events link */
+#eventsLink {
+    background-color: green;
+}
+
+#eventsLink:hover {
+    background-color: darkgreen;
+}
+
+/* Donate Link */
+#donateLink {
+    background-color: blue;
+}
+
+#donateLink:hover {
+    background-color: darkblue;
+}
+
+/* Contact Link */
+#contactLink {
+    background-color: purple;
+}
+
+#contactLink:hover {
+    background-color: rgb(62, 1, 62);
+}
+
+/* Styling for donateLink and contactLink */
+#donateLink, #contactLink {
+    color: white
+}
+
+#donateLink:hover, #contactLink:hover {
+    color: lightgray
+}

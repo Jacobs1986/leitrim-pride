@@ -4,6 +4,7 @@ import React from "react";
 import WhoWeAreImage from "../components/aboutPage/whoWeAreImage";
 import AboutLit from "../components/aboutPage/aboutLit";
 import OurMission from "../components/aboutPage/ourMission";
+import OurValues from "../components/aboutPage/ourValues";
 
 export default function About() {
     return (
@@ -21,6 +22,7 @@ export default function About() {
                     <div className="col-xs-12">
                         <AboutLit />
                         <OurMission />
+                        <OurValues />
                     </div>
                 </div>
             </div>

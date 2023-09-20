@@ -2,6 +2,13 @@
 footer {
     text-align: center;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    padding: 13px 0px;
+}
+
+/* Footer contact link */
+.footerContactDiv a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Footer Icons */
@@ -37,6 +44,22 @@ footer {
     /* Footer Icon */
     .footerIcon {
         margin: 0px;
-        width: 11%;
+        width: 9%;
+    }
+}
+
+/* Medium screen break */
+@media screen and (min-width: 768px) {
+    /* Footer icons */
+    .footerIcon {
+        width: 7%;
+    }
+}
+
+/* Medium screen break */
+@media screen and (min-width: 992px) {
+    /* Footer icons */
+    .footerIcon {
+        width: 5%;
     }
 }

@@ -1,3 +1,6 @@
+/* Import link styles */
+@import "./linkStyling.css";
+
 /* Add color to the topNav */
 .topNav {
     overflow: hidden;

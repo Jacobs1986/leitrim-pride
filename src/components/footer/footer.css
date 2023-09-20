@@ -1,10 +1,42 @@
 /* Footer */
-.footer {
+footer {
     text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 
 /* Footer Icons */
 .footerIcon {
-    width: 8%;
+    width: 20%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.footerIcon a {
     margin-right: 5px;
+}
+
+/* Small screen breaks */
+@media screen and (min-width: 600px) {
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer divs */
+    footer div {
+        padding: 0px 6px;
+    }
+
+    /* Center div */
+    .footerContactDiv {
+        border-left: solid;
+        border-right: solid;
+    }
+
+    /* Footer Icon */
+    .footerIcon {
+        margin: 0px;
+        width: 11%;
+    }
 }

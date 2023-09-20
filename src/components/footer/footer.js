@@ -5,23 +5,23 @@ import "./footer.css";
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <footer>
             {/* Copyright */}
             <div>
                 <span dangerouslySetInnerHTML={{ "__html": "&copy;" }} /> Leitrim Pride 2022
             </div>
             {/* Contact Link */}
-            <div>
+            <div className="footerContactDiv">
                 <a href="/contact">Contact Us</a>
             </div>
             {/* Social Media Links */}
-            <div>
+            <div className="footerIcon">
                 {/* Facebook */}
                 <a href="https://www.facebook.com/LeitrimPride" target={"_blank"} rel='noreferrer'>
                     <img
                         src="./icons/facebook.png"
                         alt="Facebook Icon"
-                        className="footerIcon"
+                        style={{ width: "100%" }}
                     />
                 </a>
                 {/* Instagram */}
@@ -29,7 +29,7 @@ export default function Footer() {
                     <img
                         src="./icons/instagram.png"
                         alt="Instagram Icon"
-                        className="footerIcon"
+                        style={{ width: "100%" }}
                     />
                 </a>
                 {/* Twitter */}
@@ -37,10 +37,10 @@ export default function Footer() {
                     <img
                         src="./icons/twitter.png"
                         alt="Twitter Icon"
-                        className="footerIcon"
+                        style={{ width: "100%" }}
                     />
                 </a>
             </div>
-        </div>
+        </footer>
     );
 };

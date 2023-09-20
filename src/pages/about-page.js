@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import WhoWeAreImage from "../components/aboutPage/whoWeAreImage";
+import AboutLit from "../components/aboutPage/aboutLit";
 
 export default function About() {
     return (
@@ -14,6 +15,10 @@ export default function About() {
                     {/* Image */}
                     <div className="col-xs-12">
                         <WhoWeAreImage />
+                    </div>
+                    {/* Literature */}
+                    <div className="col-xs-12">
+                        <AboutLit />
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import {
     Route
 } from "react-router-dom"
 
- // Styling
+// Styling
 import './App.css'
 
 // Pages
@@ -17,10 +17,14 @@ import Events from "./pages/events-page";
 import GetInvolved from "./pages/get-involved-page";
 import Team from "./pages/team-page";
 
+// Components
+import NavBar from "./components/navBar/navBar";
+
 function App() {
     return (
         <div>
             <BrowserRouter>
+                <NavBar />
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />

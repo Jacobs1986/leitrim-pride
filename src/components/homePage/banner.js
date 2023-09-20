@@ -5,6 +5,12 @@ import "./homePage-styles.css";
 
 export default function HomePageBanner() {
     return (
-        <div>This is the banner component.</div>
+        <div>
+            <img 
+                src="./Images/homePageBannerOrg.jpg"
+                alt="Home page banner"
+                width="100%"
+            />
+        </div>
     );
 };

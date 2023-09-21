@@ -7,7 +7,10 @@ export default function ConstitutionLink() {
     return (
         <div>
             <p>
-                For more information please click here to view our constitution.
+                For more information please <a
+                    href="constitution.pdf"
+                    target="_blank"
+                >click here</a> to view our constitution.
             </p>
         </div>
     );

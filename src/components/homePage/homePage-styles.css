@@ -38,6 +38,11 @@
         font-size: 56px;
     }
 
+    /* Literature container */
+    .homePageLitContainer {
+        height: 895px;
+    }
+
     /* Literature styling */
     .homePageLitP {
         font-size: 35px;
@@ -50,6 +55,11 @@
     /* Banner Overlay */
     .homePageBannerOverlay {
         font-size: 81px;
+    }
+
+    /* Literature container */
+    .homePageLitContainer {
+        height: 454px;
     }
 }
 

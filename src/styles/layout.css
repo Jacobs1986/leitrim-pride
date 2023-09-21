@@ -1,6 +1,13 @@
+/* Container */
 .container {
-    /* padding: 10px; */
     box-sizing: border-box;
+}
+
+/* Columns */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
 }
 
 /* Rows */
@@ -10,19 +17,8 @@
     display: table;
 }
 
-.row {
-    margin: 10px 0px;
-}
-
-/* Columns */
-[class*="col-"] {
-    float: left;
-    padding: 5px;
-    /* border: 1px solid red; */
-}
-
-/* Extra small break point */
-@media only screen and (max-width: 600px) {
+/* Extra small device break points */
+@media screen and (max-width: 600px) {
     .col-xs-1 {
         width: 8.33%;
     }
@@ -73,7 +69,7 @@
 }
 
 /* Small device break points */
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     .col-s-1 {
         width: 8.33%;
     }
@@ -124,7 +120,7 @@
 }
 
 /* Medium device break points */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .col-m-1 {
         width: 8.33%;
     }
@@ -174,8 +170,8 @@
     }
 }
 
-/* Large device break ppints */
-@media only screen and (min-width: 992px) {
+/* Large device break points */
+@media screen and (min-width: 992px) {
     .col-lg-1 {
         width: 8.33%;
     }
@@ -225,8 +221,8 @@
     }
 }
 
-/* Extra large break points */
-@media only screen and (min-width: 1200px) {
+/* Extra large device break points */
+@media screen and (min-width: 1200px) {
     .col-xl-1 {
         width: 8.33%;
     }

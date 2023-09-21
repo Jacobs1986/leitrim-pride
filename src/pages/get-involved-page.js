@@ -2,6 +2,11 @@ import React from "react";
 
 export default function GetInvolved() {
     return (
-        <div>This is the get involved page!</div>
+        <div>
+            {/* Page Title */}
+            <h2 style={{ textAlign: "center" }}>
+                Get Involved
+            </h2>
+        </div>
     );
 };

@@ -3,3 +3,8 @@
     border-bottom: 2px solid black;
     margin-bottom: 5px;
 }
+
+/* Styling for the memberDiv */
+.memberDiv {
+    text-align: center;
+}

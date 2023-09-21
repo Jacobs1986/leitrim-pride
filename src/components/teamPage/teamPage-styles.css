@@ -1,0 +1,5 @@
+/* Styling for each of the rows */
+.bioRow {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}

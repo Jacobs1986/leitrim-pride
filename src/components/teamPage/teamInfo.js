@@ -19,7 +19,7 @@ export default function TeamInfo() {
                         // Begin a new row
                         <div className="row bioRow" key={member.id}>
                             {/* First column has the picture */}
-                            <div className="col-xs-12">
+                            <div className="col-xs-12 col-lg-4">
                                 {/* Check to see if there is an image */}
                                 {!member.image ?
                                     // If no image show a pride flag
@@ -49,9 +49,9 @@ export default function TeamInfo() {
                                 </div>
                             </div>
                             {/* Members biographical information */}
-                            <div className="col-xs-12">
+                            <div className="col-xs-12 col-lg-8">
                                 {/* Split the text so that it comes out in paragraphs */}
-                                {member.text.split("\n").map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+                                {member.text.split("\n").map((paragraph, i) => <p key={i} className="memberBioParas">{paragraph}</p>)}
                             </div>
                         </div>
                     }

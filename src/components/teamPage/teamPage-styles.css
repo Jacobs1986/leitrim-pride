@@ -8,3 +8,11 @@
 .memberDiv {
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+
+    /* Styling for the member bio */
+    .memberBioParas {
+        font-size: 24px;
+    }
+}

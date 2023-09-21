@@ -6,7 +6,11 @@ import "./getInvolvedPage-styles.css";
 export default function GetInvolvedBanner() {
     return (
         <div>
-            The page banner will go here.
+            <img 
+                src="./Images/getInvolvedBanner.jpg"
+                alt="Page banner"
+                width={"100%"}
+            />
         </div>
     );
 };

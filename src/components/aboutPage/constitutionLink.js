@@ -5,7 +5,7 @@ import "./aboutPage-styles.css";
 
 export default function ConstitutionLink() {
     return (
-        <div>
+        <div style={{ fontSize: "20px"}}>
             <p>
                 For more information please <a
                     href="constitution.pdf"

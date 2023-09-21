@@ -12,7 +12,7 @@ export default function About() {
             {/* Page Title */}
             <h1 style={{ textAlign: "center"}}>Who We Are</h1>
             {/* Page Content */}
-            <div className="container">
+            <div>
                 <div className="row">
                     {/* Image */}
                     <div className="col-xs-12 col-lg-5">

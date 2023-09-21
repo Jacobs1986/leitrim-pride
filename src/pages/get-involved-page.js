@@ -5,6 +5,7 @@ import GetInvolvedBanner from "../components/getInvolvedPage/getInvolvedBanner";
 import JoinTheTeam from "../components/getInvolvedPage/joinTheTeam";
 import VolunteeringRoles from "../components/getInvolvedPage/volunteeringRoles";
 import VolunteeringOffer from "../components/getInvolvedPage/volunteeringOffers";
+import TimeCommitment from "../components/getInvolvedPage/timeCommitment";
 
 export default function GetInvolved() {
     return (
@@ -30,6 +31,12 @@ export default function GetInvolved() {
                 <div className="col-xs-12 col-s-6">
                     {/* Offers */}
                     <VolunteeringOffer />
+                </div>
+            </div>
+            {/* Time Commitment */}
+            <div className="row">
+                <div className="col-xs-12">
+                     <TimeCommitment />
                 </div>
             </div>
         </div>
